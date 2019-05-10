@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<!--Rational Software Architect Designer 9.6-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Piattaforma Rational Modeling (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_GYn_YnMhEem7geynQZ8k_A" name="Package vuoto">
+  <eAnnotations xmi:id="_GYn_Y3MhEem7geynQZ8k_A" source="uml2.diagrams" references="_GYn_ZHMhEem7geynQZ8k_A">
+    <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_GYn_ZHMhEem7geynQZ8k_A" type="Freeform" name="Main"/>
+  </eAnnotations>
+  <packageImport xmi:id="_GYn_ZXMhEem7geynQZ8k_A">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <profileApplication xmi:id="_GYn_ZnMhEem7geynQZ8k_A">
+    <eAnnotations xmi:id="_GYn_Z3MhEem7geynQZ8k_A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+  </profileApplication>
+  <profileApplication xmi:id="_GYn_aHMhEem7geynQZ8k_A">
+    <eAnnotations xmi:id="_GYn_aXMhEem7geynQZ8k_A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default?"/>
+  </profileApplication>
+  <profileApplication xmi:id="_GYn_anMhEem7geynQZ8k_A">
+    <eAnnotations xmi:id="_GYn_a3MhEem7geynQZ8k_A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_4OVBUD0TEeKt-L0gyEptgQ?Deployment/Deployment?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+  </profileApplication>
+</uml:Package>

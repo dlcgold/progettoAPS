@@ -38,7 +38,7 @@
         </children>
         <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="__YDPEHNhEemYfZkur1G4Eg" element="__X_ksHNhEemYfZkur1G4Eg" fontName="Cantarell" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
           <children xmi:type="notation:DecorationNode" xmi:id="__YD2IHNhEemYfZkur1G4Eg" type="ImageCompartment">
-            <layoutConstraint xmi:type="notation:Size" xmi:id="__YD2IXNhEemYfZkur1G4Eg" width="1455" height="2381"/>
+            <layoutConstraint xmi:type="notation:Size" xmi:id="__YD2IXNhEemYfZkur1G4Eg" width="2243" height="2381"/>
           </children>
           <children xmi:type="notation:BasicDecorationNode" xmi:id="__YD2InNhEemYfZkur1G4Eg" type="Stereotype"/>
           <children xmi:type="notation:BasicDecorationNode" xmi:id="__YEdMHNhEemYfZkur1G4Eg" type="Name"/>
@@ -698,103 +698,13 @@
     <packageImport xmi:id="_GYn_ZXMhEem7geynQZ8k_A">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
     </packageImport>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_sN00gHMiEem7geynQZ8k_A" name="Esperto Clinico"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_vUg4oHMiEem7geynQZ8k_A" name="Test Clinici"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_wwKXQHMiEem7geynQZ8k_A" name="crea" memberEnd="_wwKXQXMiEem7geynQZ8k_A _wwKXRHMiEem7geynQZ8k_A" navigableOwnedEnd="_wwKXQXMiEem7geynQZ8k_A _wwKXRHMiEem7geynQZ8k_A">
-      <ownedEnd xmi:id="_wwKXQXMiEem7geynQZ8k_A" name="test Clinici" visibility="private" type="_vUg4oHMiEem7geynQZ8k_A" association="_wwKXQHMiEem7geynQZ8k_A">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wwKXQ3MiEem7geynQZ8k_A" value="*"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wwKXQnMiEem7geynQZ8k_A" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_wwKXRHMiEem7geynQZ8k_A" name="esperto Clinico" visibility="private" type="_sN00gHMiEem7geynQZ8k_A" association="_wwKXQHMiEem7geynQZ8k_A">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wwKXRnMiEem7geynQZ8k_A" value="*"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wwKXRXMiEem7geynQZ8k_A"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Actor" xmi:id="__aW60HMiEem7geynQZ8k_A" name="Somministratore"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_BXbEcHMjEem7geynQZ8k_A" name="somministra" memberEnd="_BXkOYHMjEem7geynQZ8k_A _BXkOY3MjEem7geynQZ8k_A" navigableOwnedEnd="_BXkOYHMjEem7geynQZ8k_A _BXkOY3MjEem7geynQZ8k_A">
-      <ownedEnd xmi:id="_BXkOYHMjEem7geynQZ8k_A" name="test Clinici" visibility="private" type="_vUg4oHMiEem7geynQZ8k_A" association="_BXbEcHMjEem7geynQZ8k_A">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BXkOYnMjEem7geynQZ8k_A" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BXkOYXMjEem7geynQZ8k_A" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_BXkOY3MjEem7geynQZ8k_A" name="somministratori" visibility="private" type="__aW60HMiEem7geynQZ8k_A" association="_BXbEcHMjEem7geynQZ8k_A">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BXkOZXMjEem7geynQZ8k_A" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BXkOZHMjEem7geynQZ8k_A" value="1"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_ENrf4HMjEem7geynQZ8k_A" name="Soggetto"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_F9TDYHMjEem7geynQZ8k_A" name="fare" memberEnd="_F9c0YHMjEem7geynQZ8k_A _F9c0Y3MjEem7geynQZ8k_A" navigableOwnedEnd="_F9c0YHMjEem7geynQZ8k_A _F9c0Y3MjEem7geynQZ8k_A">
-      <ownedEnd xmi:id="_F9c0YHMjEem7geynQZ8k_A" name="test Clinici" visibility="private" type="_vUg4oHMiEem7geynQZ8k_A" association="_F9TDYHMjEem7geynQZ8k_A">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_F9c0YnMjEem7geynQZ8k_A" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_F9c0YXMjEem7geynQZ8k_A" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_F9c0Y3MjEem7geynQZ8k_A" name="soggetti" visibility="private" type="_ENrf4HMjEem7geynQZ8k_A" association="_F9TDYHMjEem7geynQZ8k_A">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_F9c0ZXMjEem7geynQZ8k_A" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_F9c0ZHMjEem7geynQZ8k_A" value="1"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_UV6uwHMjEem7geynQZ8k_A" name="Test Pilota">
-      <include xmi:id="_VIWb0HMkEem7geynQZ8k_A" addition="_R8fj0HMkEem7geynQZ8k_A"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_yDtNUHMjEem7geynQZ8k_A" name="Soggetto sano">
-      <generalization xmi:id="_19lo8HMjEem7geynQZ8k_A" general="_ENrf4HMjEem7geynQZ8k_A"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_IMPxwHMkEem7geynQZ8k_A" name="crea" memberEnd="_IMPxwXMkEem7geynQZ8k_A _IMZiwHMkEem7geynQZ8k_A" navigableOwnedEnd="_IMPxwXMkEem7geynQZ8k_A _IMZiwHMkEem7geynQZ8k_A">
-      <ownedEnd xmi:id="_IMPxwXMkEem7geynQZ8k_A" name="esperto Clinico" visibility="private" type="_sN00gHMiEem7geynQZ8k_A" association="_IMPxwHMkEem7geynQZ8k_A">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IMPxw3MkEem7geynQZ8k_A" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IMPxwnMkEem7geynQZ8k_A" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_IMZiwHMkEem7geynQZ8k_A" name="test Pilota" visibility="private" type="_UV6uwHMjEem7geynQZ8k_A" association="_IMPxwHMkEem7geynQZ8k_A">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IMZiwnMkEem7geynQZ8k_A" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IMZiwXMkEem7geynQZ8k_A" value="1"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_R8fj0HMkEem7geynQZ8k_A" name="Domanda"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_p4axcHMkEem7geynQZ8k_A" name="risponde" memberEnd="_p4axcXMkEem7geynQZ8k_A _p4axdHMkEem7geynQZ8k_A" navigableOwnedEnd="_p4axcXMkEem7geynQZ8k_A _p4axdHMkEem7geynQZ8k_A">
-      <ownedEnd xmi:id="_p4axcXMkEem7geynQZ8k_A" name="domanda" visibility="private" type="_R8fj0HMkEem7geynQZ8k_A" association="_p4axcHMkEem7geynQZ8k_A">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_p4axc3MkEem7geynQZ8k_A" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_p4axcnMkEem7geynQZ8k_A" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_p4axdHMkEem7geynQZ8k_A" name="soggetto sano" visibility="private" type="_yDtNUHMjEem7geynQZ8k_A" association="_p4axcHMkEem7geynQZ8k_A">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_p4axdnMkEem7geynQZ8k_A" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_p4axdXMkEem7geynQZ8k_A" value="1"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_qKHwAHMlEem7geynQZ8k_A" name="Domanda giusta">
-      <generalization xmi:id="_r-EZ4HMlEem7geynQZ8k_A" general="_R8fj0HMkEem7geynQZ8k_A"/>
-      <include xmi:id="_stmZYHMlEem7geynQZ8k_A" addition="_vUg4oHMiEem7geynQZ8k_A"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_06uy4HMlEem7geynQZ8k_A" name="Domande sbagliate">
-      <generalization xmi:id="_3prscHMlEem7geynQZ8k_A" general="_R8fj0HMkEem7geynQZ8k_A"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_-U6OUHMlEem7geynQZ8k_A" name="modifica" memberEnd="_-U6OUXMlEem7geynQZ8k_A _-U6OVHMlEem7geynQZ8k_A" navigableOwnedEnd="_-U6OUXMlEem7geynQZ8k_A _-U6OVHMlEem7geynQZ8k_A">
-      <ownedEnd xmi:id="_-U6OUXMlEem7geynQZ8k_A" name="domande sbagliate" visibility="private" type="_06uy4HMlEem7geynQZ8k_A" association="_-U6OUHMlEem7geynQZ8k_A">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-U6OU3MlEem7geynQZ8k_A" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-U6OUnMlEem7geynQZ8k_A" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_-U6OVHMlEem7geynQZ8k_A" name="esperto Clinico" visibility="private" type="_sN00gHMiEem7geynQZ8k_A" association="_-U6OUHMlEem7geynQZ8k_A">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-U6OVnMlEem7geynQZ8k_A" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-U6OVXMlEem7geynQZ8k_A" value="1"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_TRCC8HMmEem7geynQZ8k_A" name="Sistema"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_qRNaAHMmEem7geynQZ8k_A" name="memorizzazione" memberEnd="_qROoIHMmEem7geynQZ8k_A _qRP2QHMmEem7geynQZ8k_A" navigableOwnedEnd="_qROoIHMmEem7geynQZ8k_A">
-      <ownedEnd xmi:id="_qROoIHMmEem7geynQZ8k_A" name="sistema" visibility="private" type="_TRCC8HMmEem7geynQZ8k_A" association="_qRNaAHMmEem7geynQZ8k_A">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qRPPMXMmEem7geynQZ8k_A" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qRPPMHMmEem7geynQZ8k_A"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_qRP2QHMmEem7geynQZ8k_A" name="" visibility="private" type="_vUg4oHMiEem7geynQZ8k_A" association="_qRNaAHMmEem7geynQZ8k_A">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qRQdUXMmEem7geynQZ8k_A" value="*"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qRQdUHMmEem7geynQZ8k_A"/>
-      </ownedEnd>
-    </packagedElement>
     <packagedElement xmi:type="uml:Actor" xmi:id="_cdr6wHNdEemYfZkur1G4Eg" name="Esperto">
       <generalization xmi:id="_Y0qw0HV6EemaGroYcncX0w" general="_xSqMQHNiEemYfZkur1G4Eg"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_tgO1wHNdEemYfZkur1G4Eg" name="Creazione test pilota">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_tgO1wHNdEemYfZkur1G4Eg" name="Creazione di un test pilota">
       <ownedComment xmi:id="_dGGJIHNeEemYfZkur1G4Eg" annotatedElement="_tgO1wHNdEemYfZkur1G4Eg">
         <body>&lt;p>&lt;/p>&lt;table border=&quot;1&quot;>&lt;col width=&quot;50.0%&quot;>&lt;/col>&lt;col width=&quot;50.0%&quot;>&lt;/col>&lt;tr>&lt;td>&lt;p>&lt;b>Sezione dei Casi d'Uso&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>&lt;b>Commento&lt;/b>&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Nome del Caso d'Uso&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Creazione test pilota&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Portata&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Sistema per la creazione e la somministrazione di test clinici per individuare disturbi linguistici quali la dislessia e la discalculia&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Livello&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Obiettivo utente&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Attore Primario&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Esperto nei disturbi linguistici&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Parti interessate e interessi&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Esperto nei disturbi linguistici che vuole creare il test&lt;/p>&lt;/li>&lt;li>&lt;p>Somministratori del test che necessitano del test da sottoporre ai pazienti&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Pre-condizioni&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>L'esperto deve avere una teoria da applicare&lt;/p>&lt;/li>&lt;li>&lt;p>Devono esserci domande a suffcienza&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Garanzia di successo&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Il test viene creato&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Scenario principale di successo&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ol>&lt;li>&lt;p>L'esperto crea un test pilota&lt;/p>&lt;/li>&lt;li>&lt;p>L'esperto inserisce le domande nel test pilota&lt;/p>&lt;/li>&lt;li>&lt;p>L'esperto pubblica il test pilota per i volontari sani&lt;/p>&lt;/li>&lt;/ol>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Estensioni&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Non ci sono abbastanza domande -&amp;gt; fallimento&lt;/p>&lt;/li>&lt;li>&lt;p>Non si riesce a rendere accessibile il test -&amp;gt; fallimento&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Elenco delle variabili tecnologiche e dei dati&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Dispositivo su cui si scrive il test&lt;/p>&lt;/li>&lt;li>&lt;p>Domande per il test linguistico&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Frequenza di ripetizione&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Tutte le volte che si necessita di creare un test clinico&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Requisiti speciali&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Non funzionale esterno legale secondo la normativa corrente&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>&lt;p>&lt;/p>&lt;p>&lt;/p></body>
       </ownedComment>
-      <include xmi:id="_Y8mVcHNkEemYfZkur1G4Eg" addition="_XXXdAHNkEemYfZkur1G4Eg"/>
       <extensionPoint xmi:id="_XfrEMHQDEemMc8bBOVxX-A" name="ExtensionPoint1"/>
       <extensionPoint xmi:id="_bWpOYHQGEem-F_32Acwnpw" name="ExtensionPoint2"/>
     </packagedElement>
@@ -808,11 +718,10 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yC_PQHNdEemYfZkur1G4Eg" value="1"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_4oe_wHNhEemYfZkur1G4Eg" name="Somministrazione test pilota">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_4oe_wHNhEemYfZkur1G4Eg" name="Somministrazione di un test pilota">
       <ownedComment xmi:id="_x7dXwHQJEem-F_32Acwnpw" annotatedElement="_4oe_wHNhEemYfZkur1G4Eg">
         <body>&lt;p>&lt;/p>&lt;table border=&quot;1&quot;>&lt;col width=&quot;50.0%&quot;>&lt;/col>&lt;col width=&quot;50.0%&quot;>&lt;/col>&lt;tr>&lt;td>&lt;p>&lt;b>Sezione dei Casi d'Uso&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>&lt;b>Commento&lt;/b>&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Nome del Caso d'Uso&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Somministrazione test pilota&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Portata&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Sistema per la creazione e la somministrazione di test clinici per individuare disturbi linguistici quali la dislessia e la discalculia&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Livello&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Obiettivo utente&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Attore Primario&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Esperto nei disturbi linguistici&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Parti interessate e interessi&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Esperto nei disturbi linguistici che vuole somministrare il test per valutarne qualità ed efficacia&lt;/p>&lt;/li>&lt;li>&lt;p>Soggetto sano che vuole contribuire ad individuare i disturbi in studio&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Pre-condizioni&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>L'esperto deve avere un test da somministrare&lt;/p>&lt;/li>&lt;li>&lt;p>Devono esserci soggetti sani a cui far effettuare il test&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Garanzia di successo&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Il test viene somministrato (?????????????)&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Scenario principale di successo&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ol>&lt;li>&lt;p>L'esperto seleziona un test pilota&lt;/p>&lt;/li>&lt;li>&lt;p>L'esperto somministra il test pilota ad un soggetto sano&lt;/p>&lt;/li>&lt;/ol>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Estensioni&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Non c'è un test somministrabile -&amp;gt; fallimento&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Elenco delle variabili tecnologiche e dei dati&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Dispositivo su cui si effettua il test&lt;/p>&lt;/li>&lt;li>&lt;p>Test&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Frequenza di ripetizione&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Tutte le volte che serve (?)&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Requisiti speciali&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Non funzionale esterno legale di riservatezza&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>&lt;p>&lt;/p>&lt;p>&lt;/p></body>
       </ownedComment>
-      <include xmi:id="_yi0SsHQJEem-F_32Acwnpw" addition="_XXXdAHNkEemYfZkur1G4Eg"/>
       <extend xmi:id="_TEO4sHV5EemaGroYcncX0w" extendedCase="_ObB0IHNkEemYfZkur1G4Eg" extensionLocation="_TEeJQHV5EemaGroYcncX0w"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_7bJ7sHNhEemYfZkur1G4Eg" memberEnd="_7bLw4HNhEemYfZkur1G4Eg _7bQCUHNhEemYfZkur1G4Eg" navigableOwnedEnd="_7bLw4HNhEemYfZkur1G4Eg _7bQCUHNhEemYfZkur1G4Eg">
@@ -825,7 +734,7 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7bRQcHNhEemYfZkur1G4Eg" value="1"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Actor" xmi:id="__X_ksHNhEemYfZkur1G4Eg" name="soggetto sano"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="__X_ksHNhEemYfZkur1G4Eg" name="Soggetto Sano"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_ETKeMHNiEemYfZkur1G4Eg" memberEnd="_ETMTYHNiEemYfZkur1G4Eg _ETQk0HNiEemYfZkur1G4Eg" navigableOwnedEnd="_ETMTYHNiEemYfZkur1G4Eg _ETQk0HNiEemYfZkur1G4Eg">
       <ownedEnd xmi:id="_ETMTYHNiEemYfZkur1G4Eg" name="soggetto sano" visibility="private" type="__X_ksHNhEemYfZkur1G4Eg" association="_ETKeMHNiEemYfZkur1G4Eg">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ETOvoHNiEemYfZkur1G4Eg" value="1"/>
@@ -836,7 +745,7 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ETSaAHNiEemYfZkur1G4Eg" value="1"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_xSqMQHNiEemYfZkur1G4Eg" name="somministratore"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_xSqMQHNiEemYfZkur1G4Eg" name="Somministratore"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_3WIxoHNiEemYfZkur1G4Eg" memberEnd="_3WKm0HNiEemYfZkur1G4Eg _3WORMHNiEemYfZkur1G4Eg" navigableOwnedEnd="_3WKm0HNiEemYfZkur1G4Eg _3WORMHNiEemYfZkur1G4Eg">
       <ownedEnd xmi:id="_3WKm0HNiEemYfZkur1G4Eg" name="somministrazione test pilota" visibility="private" type="_4oe_wHNhEemYfZkur1G4Eg" association="_3WIxoHNiEemYfZkur1G4Eg">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3WNDEHNiEemYfZkur1G4Eg" value="1"/>
@@ -847,13 +756,13 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3WQGYHNiEemYfZkur1G4Eg" value="1"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_B5I2UHNjEemYfZkur1G4Eg" name="docente">
+    <packagedElement xmi:type="uml:Actor" xmi:id="_B5I2UHNjEemYfZkur1G4Eg" name="Docente">
       <generalization xmi:id="_I1F70HNjEemYfZkur1G4Eg" general="_xSqMQHNiEemYfZkur1G4Eg"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_C14LYHNjEemYfZkur1G4Eg" name="medico">
+    <packagedElement xmi:type="uml:Actor" xmi:id="_C14LYHNjEemYfZkur1G4Eg" name="Medico">
       <generalization xmi:id="_JkhNoHNjEemYfZkur1G4Eg" general="_xSqMQHNiEemYfZkur1G4Eg"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_ZKGbYHNjEemYfZkur1G4Eg" name="Creazione test clinici">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ZKGbYHNjEemYfZkur1G4Eg" name="Creazione di un test clinico">
       <ownedComment xmi:id="_3asLIHQKEem-F_32Acwnpw" annotatedElement="_ZKGbYHNjEemYfZkur1G4Eg">
         <body>&lt;p>&lt;/p>&lt;table border=&quot;1&quot;>&lt;col width=&quot;50.0%&quot;>&lt;/col>&lt;col width=&quot;50.0%&quot;>&lt;/col>&lt;tr>&lt;td>&lt;p>&lt;b>Sezione dei Casi d'Uso&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>&lt;b>Commento&lt;/b>&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Nome del Caso d'Uso&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Creazione test clinico&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Portata&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Sistema per la creazione e la somministrazione di test clinici per individuare disturbi linguistici quali la dislessia e la discalculia&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Livello&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Obiettivo utente&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Attore Primario&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Esperto nei disturbi linguistici&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Parti interessate e interessi&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Esperto nei disturbi linguistici che vuole creare il test&lt;/p>&lt;/li>&lt;li>&lt;p>Server centralizzato sui cui verrà salvato il test&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Pre-condizioni&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>L'esperto deve avere un test pilota valido convalidato&lt;/p>&lt;/li>&lt;li>&lt;p>Deve esistere un server centralizzato&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Garanzia di successo&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Il test viene creato e salvato sul server centralizzato (?)&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Scenario principale di successo&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ol>&lt;li>&lt;p>L'esperto inserisce le domande convalidate col test pilota nel test clinico&lt;/p>&lt;/li>&lt;li>&lt;p>L'esperto carica il test clinico sul server&lt;/p>&lt;/li>&lt;/ol>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Estensioni&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Non ci sono abbastanza domande convalidate -&amp;gt; fallimento&lt;/p>&lt;/li>&lt;li>&lt;p>Non si riesce a caricare sul server il test -&amp;gt; fallimento&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Elenco delle variabili tecnologiche e dei dati&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Server centralizzato su cui caricare il test&lt;/p>&lt;/li>&lt;li>&lt;p>Test convalidato (?)&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Frequenza di ripetizione&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Tutte le volte che serve (?)&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Requisiti speciali&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Non funzionale esterno legale&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>&lt;p>&lt;/p>&lt;p>&lt;/p></body>
       </ownedComment>
@@ -869,7 +778,7 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_e-QyYHNjEemYfZkur1G4Eg" value="1"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_nhvPUHNjEemYfZkur1G4Eg" name="server centralizzato"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_nhvPUHNjEemYfZkur1G4Eg" name="Server Centralizzato"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_pV57oHNjEemYfZkur1G4Eg" memberEnd="_pV7w0HNjEemYfZkur1G4Eg _pV_bMHNjEemYfZkur1G4Eg" navigableOwnedEnd="_pV7w0HNjEemYfZkur1G4Eg _pV_bMHNjEemYfZkur1G4Eg">
       <ownedEnd xmi:id="_pV7w0HNjEemYfZkur1G4Eg" name="server centralizzato" visibility="private" type="_nhvPUHNjEemYfZkur1G4Eg" association="_pV57oHNjEemYfZkur1G4Eg">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pV9mAXNjEemYfZkur1G4Eg" value="1"/>
@@ -880,32 +789,7 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pWApUHNjEemYfZkur1G4Eg" value="1"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_zbgSoHNjEemYfZkur1G4Eg" name="accesso ???????????????????????">
-      <ownedComment xmi:id="_-yo4YHbkEemBNfsETgEjNQ" annotatedElement="_zbgSoHNjEemYfZkur1G4Eg">
-        <body>&lt;p>MANCACASO D'USO ESTESO... MA SERVE DAVVERO?&lt;/p></body>
-      </ownedComment>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_2DqAoHNjEemYfZkur1G4Eg" memberEnd="_2Dr10HNjEemYfZkur1G4Eg _2DvgMHNjEemYfZkur1G4Eg" navigableOwnedEnd="_2Dr10HNjEemYfZkur1G4Eg _2DvgMHNjEemYfZkur1G4Eg">
-      <ownedEnd xmi:id="_2Dr10HNjEemYfZkur1G4Eg" name="accesso" visibility="private" type="_zbgSoHNjEemYfZkur1G4Eg" association="_2DqAoHNjEemYfZkur1G4Eg">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2DuSEHNjEemYfZkur1G4Eg" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2DtrAHNjEemYfZkur1G4Eg" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_2DvgMHNjEemYfZkur1G4Eg" name="esperto" visibility="private" type="_cdr6wHNdEemYfZkur1G4Eg" association="_2DqAoHNjEemYfZkur1G4Eg">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2DxVYHNjEemYfZkur1G4Eg" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2DwuUHNjEemYfZkur1G4Eg" value="1"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_3RshEHNjEemYfZkur1G4Eg" memberEnd="_3RuWQHNjEemYfZkur1G4Eg _3RxZkHNjEemYfZkur1G4Eg" navigableOwnedEnd="_3RuWQHNjEemYfZkur1G4Eg _3RxZkHNjEemYfZkur1G4Eg">
-      <ownedEnd xmi:id="_3RuWQHNjEemYfZkur1G4Eg" name="server centralizzato" visibility="private" type="_nhvPUHNjEemYfZkur1G4Eg" association="_3RshEHNjEemYfZkur1G4Eg">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3RwLcHNjEemYfZkur1G4Eg" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3RvkYHNjEemYfZkur1G4Eg" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_3RxZkHNjEemYfZkur1G4Eg" name="accesso" visibility="private" type="_zbgSoHNjEemYfZkur1G4Eg" association="_3RshEHNjEemYfZkur1G4Eg">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3RzOwXNjEemYfZkur1G4Eg" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3RzOwHNjEemYfZkur1G4Eg" value="1"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_ObB0IHNkEemYfZkur1G4Eg" name="Somministrazione test clinico">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ObB0IHNkEemYfZkur1G4Eg" name="Somministrazione di un test clinico">
       <ownedComment xmi:id="_IOOjAHV6EemaGroYcncX0w" annotatedElement="_ObB0IHNkEemYfZkur1G4Eg">
         <body>&lt;p>&lt;/p>&lt;table border=&quot;1&quot;>&lt;col width=&quot;50.0%&quot;>&lt;/col>&lt;col width=&quot;50.0%&quot;>&lt;/col>&lt;tr>&lt;td>&lt;p>&lt;b>Sezione dei Casi d'Uso&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>&lt;b>Commento&lt;/b>&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Nome del Caso d'Uso&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Somministrazione test clinico&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Portata&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Sistema per la creazione e la somministrazione di test clinici per individuare disturbi linguistici quali la dislessia e la discalculia&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Livello&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Obiettivo utente&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Attore Primario&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Somministratore&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Parti interessate e interessi&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Somministratore (esperto in disturbi linguistici, medico di base o docente) che vuole somministrare il test&lt;/p>&lt;/li>&lt;li>&lt;p>Soggetto malato che effettua il test&lt;/p>&lt;/li>&lt;li>&lt;p>Il server che contiene i test e salva i risultati &lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Pre-condizioni&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Deve essere disponibile un test clinico da somministrare&lt;/p>&lt;/li>&lt;li>&lt;p>Devono esserci soggetti a cui far effettuare il test per scoprire se sono malati&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Garanzia di successo&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Il test viene somministrato (?????????????)&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Scenario principale di successo&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ol>&lt;li>&lt;p>Si seleziona un test clinico&lt;/p>&lt;/li>&lt;li>&lt;p>Il somministratore fornisce il test al soggetto&lt;/p>&lt;/li>&lt;li>&lt;p>Il soggetto completa il test&lt;/p>&lt;/li>&lt;/ol>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Estensioni&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Non ci sono test da somministare -&amp;gt; fallimento&lt;/p>&lt;/li>&lt;li>&lt;p>Non ci sono soggetti a cui somministrare il test -&amp;gt; fallimento&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Elenco delle variabili tecnologiche e dei dati&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Dispositivo su cui si effettua il test&lt;/p>&lt;/li>&lt;li>&lt;p>Test&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Frequenza di ripetizione&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Tutte le volte che serve (?)&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Requisiti speciali&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Non funzionale esterno legale di riservatezza&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>&lt;p>&lt;/p>&lt;p>&lt;/p></body>
       </ownedComment>
@@ -921,32 +805,6 @@
       <ownedEnd xmi:id="_QxcR4HNkEemYfZkur1G4Eg" name="esperto" visibility="private" type="_cdr6wHNdEemYfZkur1G4Eg" association="_QxXZYHNkEemYfZkur1G4Eg">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QxeuIHNkEemYfZkur1G4Eg" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QxeHEHNkEemYfZkur1G4Eg" value="1"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_XXXdAHNkEemYfZkur1G4Eg" name="valutazione domanda">
-      <ownedComment xmi:id="_axsHMHQGEem-F_32Acwnpw" annotatedElement="_XXXdAHNkEemYfZkur1G4Eg">
-        <body>&lt;p>&lt;/p>&lt;table border=&quot;1&quot;>&lt;col width=&quot;50.0%&quot;>&lt;/col>&lt;col width=&quot;50.0%&quot;>&lt;/col>&lt;tr>&lt;td>&lt;p>&lt;b>Sezione dei Casi d'Uso&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>&lt;b>Commento&lt;/b>&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Nome del Caso d'Uso&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Valutazione domanda&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Portata&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Sistema per la creazione e la somministrazione di test clinici per individuare disturbi linguistici quali la dislessia e la discalculia&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Livello&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Sottofunzione&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Attore Primario&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Esperto nei disturbi linguistici&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Parti interessate e interessi&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Esperto nei disturbi linguistici che vuole migliorare la qualità e l'efficacia del test&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Pre-condizioni&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Devono esistere domande da valutare&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Garanzia di successo&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Conoscenza dell'efficacia della domanda &lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Scenario principale di successo&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ol>&lt;li>&lt;p>L'esperto riceve la domanda&lt;/p>&lt;/li>&lt;li>&lt;p>L'esperto valuta la risposta&lt;/p>&lt;/li>&lt;li>&lt;p>Se l'esperto approva la coppia domanda-risposta salva la domanda&lt;/p>&lt;/li>&lt;/ol>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Estensioni&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Se l'esperto non approva la coppia domanda-risposta modifica la domanda -&amp;gt; successo&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Elenco delle variabili tecnologiche e dei dati&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Dispositivo su cui si valutano  ed, eventualmente, modificano le domande&lt;/p>&lt;/li>&lt;li>&lt;p>Domande per il test linguistico&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Frequenza di ripetizione&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Tutte le volte che si ha una domanda (?)&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Requisiti speciali&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Nessuno&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>&lt;p>&lt;/p>&lt;p>&lt;/p></body>
-      </ownedComment>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_ZhUMEHNkEemYfZkur1G4Eg" memberEnd="_ZhVaMHNkEemYfZkur1G4Eg _ZhZEkHNkEemYfZkur1G4Eg" navigableOwnedEnd="_ZhVaMHNkEemYfZkur1G4Eg _ZhZEkHNkEemYfZkur1G4Eg">
-      <ownedEnd xmi:id="_ZhVaMHNkEemYfZkur1G4Eg" name="valutazione domande" visibility="private" type="_XXXdAHNkEemYfZkur1G4Eg" association="_ZhUMEHNkEemYfZkur1G4Eg">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZhX2cHNkEemYfZkur1G4Eg" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZhXPYHNkEemYfZkur1G4Eg" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_ZhZEkHNkEemYfZkur1G4Eg" name="esperto" visibility="private" type="_cdr6wHNdEemYfZkur1G4Eg" association="_ZhUMEHNkEemYfZkur1G4Eg">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Zha5wHNkEemYfZkur1G4Eg" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZhaSsHNkEemYfZkur1G4Eg" value="1"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_nS8v8HNkEemYfZkur1G4Eg" name="tablet"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_onhWMHNkEemYfZkur1G4Eg" memberEnd="_onjLYHNkEemYfZkur1G4Eg _onm1wHNkEemYfZkur1G4Eg" navigableOwnedEnd="_onjLYHNkEemYfZkur1G4Eg _onm1wHNkEemYfZkur1G4Eg">
-      <ownedEnd xmi:id="_onjLYHNkEemYfZkur1G4Eg" name="tablet" visibility="private" type="_nS8v8HNkEemYfZkur1G4Eg" association="_onhWMHNkEemYfZkur1G4Eg">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_onlnoHNkEemYfZkur1G4Eg" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_onlAkHNkEemYfZkur1G4Eg" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_onm1wHNkEemYfZkur1G4Eg" name="somministrazione test clinico" visibility="private" type="_ObB0IHNkEemYfZkur1G4Eg" association="_onhWMHNkEemYfZkur1G4Eg">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_onpSAHNkEemYfZkur1G4Eg" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_onoq8HNkEemYfZkur1G4Eg" value="1"/>
       </ownedEnd>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_xp0dIHNkEemYfZkur1G4Eg" memberEnd="_xp2SUHNkEemYfZkur1G4Eg _xp58sHNkEemYfZkur1G4Eg" navigableOwnedEnd="_xp2SUHNkEemYfZkur1G4Eg _xp58sHNkEemYfZkur1G4Eg">
@@ -969,29 +827,7 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0QqjkHNkEemYfZkur1G4Eg" value="1"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_5H0fwHNkEemYfZkur1G4Eg" name="Sistemazione software"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_7YwAkHNkEemYfZkur1G4Eg" memberEnd="_7Yx1wHNkEemYfZkur1G4Eg _7Y05EHNkEemYfZkur1G4Eg" navigableOwnedEnd="_7Yx1wHNkEemYfZkur1G4Eg _7Y05EHNkEemYfZkur1G4Eg">
-      <ownedEnd xmi:id="_7Yx1wHNkEemYfZkur1G4Eg" name="sistemazione software" visibility="private" type="_5H0fwHNkEemYfZkur1G4Eg" association="_7YwAkHNkEemYfZkur1G4Eg">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7Yzq8HNkEemYfZkur1G4Eg" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7YzD4HNkEemYfZkur1G4Eg" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_7Y05EHNkEemYfZkur1G4Eg" name="tablet" visibility="private" type="_nS8v8HNkEemYfZkur1G4Eg" association="_7YwAkHNkEemYfZkur1G4Eg">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7Y2HMXNkEemYfZkur1G4Eg" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7Y2HMHNkEemYfZkur1G4Eg" value="1"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_DOPWIHNlEemYfZkur1G4Eg" name="Software"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_EHItAHNlEemYfZkur1G4Eg" memberEnd="_EHKiMHNlEemYfZkur1G4Eg _EHNlgHNlEemYfZkur1G4Eg" navigableOwnedEnd="_EHKiMHNlEemYfZkur1G4Eg _EHNlgHNlEemYfZkur1G4Eg">
-      <ownedEnd xmi:id="_EHKiMHNlEemYfZkur1G4Eg" name="software" visibility="private" type="_DOPWIHNlEemYfZkur1G4Eg" association="_EHItAHNlEemYfZkur1G4Eg">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EHLwUXNlEemYfZkur1G4Eg" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EHLwUHNlEemYfZkur1G4Eg" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_EHNlgHNlEemYfZkur1G4Eg" name="sistemazione software" visibility="private" type="_5H0fwHNkEemYfZkur1G4Eg" association="_EHItAHNlEemYfZkur1G4Eg">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EHQBwHNlEemYfZkur1G4Eg" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EHPasHNlEemYfZkur1G4Eg" value="1"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_OA-f8HNlEemYfZkur1G4Eg" name="soggetto "/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_OA-f8HNlEemYfZkur1G4Eg" name="Soggetto"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_P652AHNlEemYfZkur1G4Eg" memberEnd="_P67rMHNlEemYfZkur1G4Eg _P6-ugHNlEemYfZkur1G4Eg" navigableOwnedEnd="_P67rMHNlEemYfZkur1G4Eg _P6-ugHNlEemYfZkur1G4Eg">
       <ownedEnd xmi:id="_P67rMHNlEemYfZkur1G4Eg" name="soggetto malato" visibility="private" type="_OA-f8HNlEemYfZkur1G4Eg" association="_P652AHNlEemYfZkur1G4Eg">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_P685UXNlEemYfZkur1G4Eg" value="1"/>
@@ -1002,60 +838,7 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_P6_8oHNlEemYfZkur1G4Eg" value="1"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_Uy4RkHNlEemYfZkur1G4Eg" name="tablet"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_Vg08sHNlEemYfZkur1G4Eg" memberEnd="_Vg2x4HNlEemYfZkur1G4Eg _Vg6cQHNlEemYfZkur1G4Eg" navigableOwnedEnd="_Vg2x4HNlEemYfZkur1G4Eg _Vg6cQHNlEemYfZkur1G4Eg">
-      <ownedEnd xmi:id="_Vg2x4HNlEemYfZkur1G4Eg" name="software" visibility="private" type="_Uy4RkHNlEemYfZkur1G4Eg" association="_Vg08sHNlEemYfZkur1G4Eg">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Vg4nEXNlEemYfZkur1G4Eg" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Vg4nEHNlEemYfZkur1G4Eg" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_Vg6cQHNlEemYfZkur1G4Eg" name="sistemazione software" visibility="private" type="_5H0fwHNkEemYfZkur1G4Eg" association="_Vg08sHNlEemYfZkur1G4Eg">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Vg8RcHNlEemYfZkur1G4Eg" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Vg7qYHNlEemYfZkur1G4Eg" value="1"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_WX5HkHNlEemYfZkur1G4Eg" name="interazione software"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_YB1g4HNlEemYfZkur1G4Eg" memberEnd="_YB2vAHNlEemYfZkur1G4Eg _YB5LQHNlEemYfZkur1G4Eg" navigableOwnedEnd="_YB2vAHNlEemYfZkur1G4Eg _YB5LQHNlEemYfZkur1G4Eg">
-      <ownedEnd xmi:id="_YB2vAHNlEemYfZkur1G4Eg" name="interazione software" visibility="private" type="_WX5HkHNlEemYfZkur1G4Eg" association="_YB1g4HNlEemYfZkur1G4Eg">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YB4kMHNlEemYfZkur1G4Eg" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YB39IHNlEemYfZkur1G4Eg" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_YB5LQHNlEemYfZkur1G4Eg" name="soggetto malato" visibility="private" type="_OA-f8HNlEemYfZkur1G4Eg" association="_YB1g4HNlEemYfZkur1G4Eg">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YB7AcHNlEemYfZkur1G4Eg" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YB6ZYHNlEemYfZkur1G4Eg" value="1"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_YZLC0HNlEemYfZkur1G4Eg" memberEnd="_YZM4AHNlEemYfZkur1G4Eg _YZP7UHNlEemYfZkur1G4Eg" navigableOwnedEnd="_YZM4AHNlEemYfZkur1G4Eg _YZP7UHNlEemYfZkur1G4Eg">
-      <ownedEnd xmi:id="_YZM4AHNlEemYfZkur1G4Eg" name="software" visibility="private" type="_Uy4RkHNlEemYfZkur1G4Eg" association="_YZLC0HNlEemYfZkur1G4Eg">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YZOtMHNlEemYfZkur1G4Eg" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YZOGIHNlEemYfZkur1G4Eg" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_YZP7UHNlEemYfZkur1G4Eg" name="interazione software" visibility="private" type="_WX5HkHNlEemYfZkur1G4Eg" association="_YZLC0HNlEemYfZkur1G4Eg">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YZRJcXNlEemYfZkur1G4Eg" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YZRJcHNlEemYfZkur1G4Eg" value="1"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_lp55EHNlEemYfZkur1G4Eg" name="interazione server"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_mtn_4HNlEemYfZkur1G4Eg" memberEnd="_mtp1EHNlEemYfZkur1G4Eg _mtsRUHNlEemYfZkur1G4Eg" navigableOwnedEnd="_mtp1EHNlEemYfZkur1G4Eg _mtsRUHNlEemYfZkur1G4Eg">
-      <ownedEnd xmi:id="_mtp1EHNlEemYfZkur1G4Eg" name="interazione server" visibility="private" type="_lp55EHNlEemYfZkur1G4Eg" association="_mtn_4HNlEemYfZkur1G4Eg">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mtrDMXNlEemYfZkur1G4Eg" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mtrDMHNlEemYfZkur1G4Eg" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_mtsRUHNlEemYfZkur1G4Eg" name="software" visibility="private" type="_Uy4RkHNlEemYfZkur1G4Eg" association="_mtn_4HNlEemYfZkur1G4Eg">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mtuGgHNlEemYfZkur1G4Eg" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mttfcHNlEemYfZkur1G4Eg" value="1"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_nBpvIHNlEemYfZkur1G4Eg" memberEnd="_nBrkUHNlEemYfZkur1G4Eg _nBunoHNlEemYfZkur1G4Eg" navigableOwnedEnd="_nBrkUHNlEemYfZkur1G4Eg _nBunoHNlEemYfZkur1G4Eg">
-      <ownedEnd xmi:id="_nBrkUHNlEemYfZkur1G4Eg" name="server centralizzato" visibility="private" type="_nhvPUHNjEemYfZkur1G4Eg" association="_nBpvIHNlEemYfZkur1G4Eg">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nBsycXNlEemYfZkur1G4Eg" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nBsycHNlEemYfZkur1G4Eg" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_nBunoHNlEemYfZkur1G4Eg" name="interazione server" visibility="private" type="_lp55EHNlEemYfZkur1G4Eg" association="_nBpvIHNlEemYfZkur1G4Eg">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nBv1wXNlEemYfZkur1G4Eg" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nBv1wHNlEemYfZkur1G4Eg" value="1"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_t2F3YHNlEemYfZkur1G4Eg" name="valutazione test ">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_t2F3YHNlEemYfZkur1G4Eg" name="Valutazione di un test">
       <ownedComment xmi:id="_eXGlAHWCEemcjegX9N_m5g" annotatedElement="_t2F3YHNlEemYfZkur1G4Eg">
         <body>&lt;p>&lt;/p>&lt;table border=&quot;1&quot;>&lt;col width=&quot;50.0%&quot;>&lt;/col>&lt;col width=&quot;50.0%&quot;>&lt;/col>&lt;tr>&lt;td>&lt;p>&lt;b>Sezione dei Casi d'Uso&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>&lt;b>Commento&lt;/b>&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Nome del Caso d'Uso&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Valutazione test&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Portata&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Sistema per la creazione e la somministrazione di test clinici per individuare disturbi linguistici quali la dislessia e la discalculia&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Livello&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Obiettivo utente&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Attore Primario&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Esperto nei disturbi linguistici&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Parti interessate e interessi&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Esperto nei disturbi linguistici che valuta il test di un soggetto&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Pre-condizioni&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Devono esistere test da valutare&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Garanzia di successo&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Conoscenza dello stato di salute del soggetto&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Scenario principale di successo&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ol>&lt;li>&lt;p>L'esperto visualizza il test completato da un soggetto mediante un'interfaccia dedicata&lt;/p>&lt;/li>&lt;li>&lt;p>L'esperto valuta le terne domanda-risposta-tempo&lt;/p>&lt;/li>&lt;li>&lt;p>L'esperto stabilisce se il soggetto è malato&lt;/p>&lt;/li>&lt;/ol>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Estensioni&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>L'esperto non riesce a visualizzare il test -&amp;gt; fallimento&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Elenco delle variabili tecnologiche e dei dati&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Dispositivo su cui si valutano i test&lt;/p>&lt;/li>&lt;li>&lt;p>Test completati&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Frequenza di ripetizione&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Tutte le volte che si ha una domanda (?)&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Requisiti speciali&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Nessuno&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>&lt;p>&lt;/p>&lt;p>&lt;/p></body>
       </ownedComment>
@@ -1070,18 +853,7 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vE1icHNlEemYfZkur1G4Eg" value="1"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_zXZj0HNlEemYfZkur1G4Eg" name="valutazione"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_0hTyMHNlEemYfZkur1G4Eg" memberEnd="_0hVnYHNlEemYfZkur1G4Eg _0hYqsHNlEemYfZkur1G4Eg" navigableOwnedEnd="_0hVnYHNlEemYfZkur1G4Eg _0hYqsHNlEemYfZkur1G4Eg">
-      <ownedEnd xmi:id="_0hVnYHNlEemYfZkur1G4Eg" name="valutazione" visibility="private" type="_zXZj0HNlEemYfZkur1G4Eg" association="_0hTyMHNlEemYfZkur1G4Eg">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0hW1gXNlEemYfZkur1G4Eg" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0hW1gHNlEemYfZkur1G4Eg" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_0hYqsHNlEemYfZkur1G4Eg" name="visualizzazione test" visibility="private" type="_t2F3YHNlEemYfZkur1G4Eg" association="_0hTyMHNlEemYfZkur1G4Eg">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0hZ40XNlEemYfZkur1G4Eg" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0hZ40HNlEemYfZkur1G4Eg" value="1"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_B2fqoHNmEemYfZkur1G4Eg" name="visualizzione risultati">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_B2fqoHNmEemYfZkur1G4Eg" name="Visualizzazione dei risultati">
       <ownedComment xmi:id="_ez3uoHWEEemcjegX9N_m5g" annotatedElement="_B2fqoHNmEemYfZkur1G4Eg">
         <body>&lt;p>&lt;/p>&lt;table border=&quot;1&quot;>&lt;col width=&quot;50.0%&quot;>&lt;/col>&lt;col width=&quot;50.0%&quot;>&lt;/col>&lt;tr>&lt;td>&lt;p>&lt;b>Sezione dei Casi d'Uso&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>&lt;b>Commento&lt;/b>&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Nome del Caso d'Uso&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Visualizzazione risultati&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Portata&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Sistema per la creazione e la somministrazione di test clinici per individuare disturbi linguistici quali la dislessia e la discalculia&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Livello&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Obiettivo utente&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Attore Primario&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Somministratore&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Parti interessate e interessi&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Somministratore che vuole visualizzare l'elenco dei test da lui somministrati e gli eventuali esiti&lt;/p>&lt;/li>&lt;li>&lt;p>Il server che contiene test e risultati&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Pre-condizioni&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Il somministratore deve aver somministrato almeno un test&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Garanzia di successo&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Il somministratore riesce a visualizzare i suoi test, con gli eventuali esiti&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Scenario principale di successo&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ol>&lt;li>&lt;p>Il somministratore accede al server mediante un'interfaccia dedicata&lt;/p>&lt;/li>&lt;li>&lt;p>Il somministratore visualizza l'elenco dei test da lui effettuati&lt;/p>&lt;/li>&lt;li>&lt;p>il somministratore visualizza le triple domanda-risposta-tempo dei vari test&lt;/p>&lt;/li>&lt;li>&lt;p>il somministratore visualizza gli eventuali esiti&lt;/p>&lt;/li>&lt;/ol>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Estensioni&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Il server è offline -&amp;gt; fallimento&lt;/p>&lt;/li>&lt;li>&lt;p>non ci sono test da visualizzare -&amp;gt; successo in quanto si avrà un'indicazione riguardo l'assenza di test effettuati&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Elenco delle variabili tecnologiche e dei dati&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Dispositivo su cui si accede al server mediante un'interfaccia dedicata&lt;/p>&lt;/li>&lt;li>&lt;p>Test somministrati dal somministratore e risultati &lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Frequenza di ripetizione&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Tutte le volte che si ha una domanda (?)&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Requisiti speciali&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Nessuno&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>&lt;p>&lt;/p>&lt;p>&lt;/p></body>
       </ownedComment>
@@ -1094,27 +866,6 @@
       <ownedEnd xmi:id="_FV3UgHNmEemYfZkur1G4Eg" name="somministratore" visibility="private" type="_xSqMQHNiEemYfZkur1G4Eg" association="_FVzDEHNmEemYfZkur1G4Eg">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FV5JsHNmEemYfZkur1G4Eg" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FV4ioHNmEemYfZkur1G4Eg" value="1"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_LQuJYHNmEemYfZkur1G4Eg" name="dati risposte"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_MjXdAHNmEemYfZkur1G4Eg" memberEnd="_MjZSMHNmEemYfZkur1G4Eg _MjcVgHNmEemYfZkur1G4Eg" navigableOwnedEnd="_MjZSMHNmEemYfZkur1G4Eg _MjcVgHNmEemYfZkur1G4Eg">
-      <ownedEnd xmi:id="_MjZSMHNmEemYfZkur1G4Eg" name="dati risposte" visibility="private" type="_LQuJYHNmEemYfZkur1G4Eg" association="_MjXdAHNmEemYfZkur1G4Eg">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MjbHYHNmEemYfZkur1G4Eg" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MjagUHNmEemYfZkur1G4Eg" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_MjcVgHNmEemYfZkur1G4Eg" name="visualizzzione test somministrati" visibility="private" type="_B2fqoHNmEemYfZkur1G4Eg" association="_MjXdAHNmEemYfZkur1G4Eg">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MjeKsHNmEemYfZkur1G4Eg" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MjdjoHNmEemYfZkur1G4Eg" value="1"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_pD2iEHQCEemMc8bBOVxX-A" memberEnd="_pD4XQHQCEemMc8bBOVxX-A _pD6zgHQCEemMc8bBOVxX-A" navigableOwnedEnd="_pD4XQHQCEemMc8bBOVxX-A _pD6zgHQCEemMc8bBOVxX-A">
-      <ownedEnd xmi:id="_pD4XQHQCEemMc8bBOVxX-A" name="esperto" visibility="private" type="_cdr6wHNdEemYfZkur1G4Eg" association="_pD2iEHQCEemMc8bBOVxX-A">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pD6McHQCEemMc8bBOVxX-A" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pD5lYHQCEemMc8bBOVxX-A" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_pD6zgHQCEemMc8bBOVxX-A" name="valutazione domanda" visibility="private" type="_XXXdAHNkEemYfZkur1G4Eg" association="_pD2iEHQCEemMc8bBOVxX-A">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pD8BoHQCEemMc8bBOVxX-A" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pD7akHQCEemMc8bBOVxX-A" value="1"/>
       </ownedEnd>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_G1bx0HV_EemaGroYcncX0w" memberEnd="_G1jGkHV_EemaGroYcncX0w _G1n_EHV_EemaGroYcncX0w" navigableOwnedEnd="_G1jGkHV_EemaGroYcncX0w _G1n_EHV_EemaGroYcncX0w">
@@ -2583,7 +2334,7 @@
       <ownedAttribute xmi:id="_UpeBwXblEemBNfsETgEjNQ" name="Esperto"/>
       <ownedAttribute xmi:id="_WI7CUHblEemBNfsETgEjNQ" name="Server"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_X2tkYHbmEemBNfsETgEjNQ" name="device"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_X2tkYHbmEemBNfsETgEjNQ" name="Device"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_YggvUHbmEemBNfsETgEjNQ" memberEnd="_YgikgHbmEemBNfsETgEjNQ _Ygln0HbmEemBNfsETgEjNQ" navigableOwnedEnd="_YgikgHbmEemBNfsETgEjNQ _Ygln0HbmEemBNfsETgEjNQ">
       <ownedEnd xmi:id="_YgikgHbmEemBNfsETgEjNQ" name="device" visibility="private" type="_X2tkYHbmEemBNfsETgEjNQ" association="_YggvUHbmEemBNfsETgEjNQ">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YgjyoXbmEemBNfsETgEjNQ" value="1"/>
@@ -2859,12 +2610,10 @@
     </profileApplication>
   </uml:Package>
   <Default:Documentation xmi:id="_dGIlYHNeEemYfZkur1G4Eg" base_Comment="_dGGJIHNeEemYfZkur1G4Eg"/>
-  <Default:Documentation xmi:id="_axzb8HQGEem-F_32Acwnpw" base_Comment="_axsHMHQGEem-F_32Acwnpw"/>
   <Default:Documentation xmi:id="_x7gbEHQJEem-F_32Acwnpw" base_Comment="_x7dXwHQJEem-F_32Acwnpw"/>
   <Default:Documentation xmi:id="_3axqsHQKEem-F_32Acwnpw" base_Comment="_3asLIHQKEem-F_32Acwnpw"/>
   <Default:Documentation xmi:id="_IOUpoHV6EemaGroYcncX0w" base_Comment="_IOOjAHV6EemaGroYcncX0w"/>
   <Default:Documentation xmi:id="_eXV1kHWCEemcjegX9N_m5g" base_Comment="_eXGlAHWCEemcjegX9N_m5g"/>
   <Default:Documentation xmi:id="_ez8nIHWEEemcjegX9N_m5g" base_Comment="_ez3uoHWEEemcjegX9N_m5g"/>
-  <Default:Documentation xmi:id="_-yrUoHbkEemBNfsETgEjNQ" base_Comment="_-yo4YHbkEemBNfsETgEjNQ"/>
   <Default:MetaConstraint xmi:id="_1Hj9YHboEemBNfsETgEjNQ" base_Constraint="_n1gRcHboEemBNfsETgEjNQ"/>
 </xmi:XMI>

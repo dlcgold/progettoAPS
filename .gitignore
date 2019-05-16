@@ -1,6 +1,6 @@
 
-# Created by https://www.gitignore.io/api/eclipse
-# Edit at https://www.gitignore.io/?templates=eclipse
+# Created by https://www.gitignore.io/api/svn,eclipse
+# Edit at https://www.gitignore.io/?templates=svn,eclipse
 
 ### Eclipse ###
 .metadata
@@ -71,4 +71,7 @@ local.properties
 
 .sts4-cache/
 
-# End of https://www.gitignore.io/api/eclipse
+### SVN ###
+.svn/
+
+# End of https://www.gitignore.io/api/svn,eclipse

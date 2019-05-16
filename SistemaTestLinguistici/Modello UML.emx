@@ -1287,9 +1287,9 @@
       <group xmi:type="uml:ActivityPartition" xmi:id="_IN7VIHWHEemcjegX9N_m5g" name="Server" node="_lvenIHWKEemcjegX9N_m5g _pB4zEHWKEemcjegX9N_m5g" edge="_qrJP4HWKEemcjegX9N_m5g _rCbugHWKEemcjegX9N_m5g"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Collaboration" xmi:id="_wwcosHYjEem0hZHO-RF5ww" name="Collaboration1">
-      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_wwvjoHYjEem0hZHO-RF5ww" name="Interaction1">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_wwvjoHYjEem0hZHO-RF5ww" name="Creazione di un test pilota">
         <eAnnotations xmi:id="_wxUycHYjEem0hZHO-RF5ww" source="uml2.diagrams">
-          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_wxUycXYjEem0hZHO-RF5ww" type="Sequence" element="_wwvjoHYjEem0hZHO-RF5ww" name="creazione test pilota" measurementUnit="Himetric">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_wxUycXYjEem0hZHO-RF5ww" type="Sequence" element="_wwvjoHYjEem0hZHO-RF5ww" name="Diagramma di sequenza per la creazione di un test pilota" measurementUnit="Himetric">
             <children xmi:type="umlnotation:UMLShape" xmi:id="_wxUycnYjEem0hZHO-RF5ww" element="_wwvjoHYjEem0hZHO-RF5ww" fontName="Cantarell" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
               <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_wxUyc3YjEem0hZHO-RF5ww" type="interaction_compartment">
                 <children xmi:type="umlnotation:UMLShape" xmi:id="_9R0ekHYjEem0hZHO-RF5ww" element="_9Rl1EHYjEem0hZHO-RF5ww" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -1434,15 +1434,10 @@
       <ownedAttribute xmi:id="_9RnqQHYjEem0hZHO-RF5ww" name="Device"/>
     </packagedElement>
     <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_nWCuUHYkEem0hZHO-RF5ww" name="ExecutionEvent1"/>
-    <packagedElement xmi:type="uml:Collaboration" xmi:id="_6j2nAHYkEem0hZHO-RF5ww" name="Collaboration2">
-      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_6j64cHYkEem0hZHO-RF5ww" name="Interaction1">
-        <eAnnotations xmi:id="_6j_w8HYkEem0hZHO-RF5ww" source="uml2.diagrams"/>
-      </ownedBehavior>
-    </packagedElement>
     <packagedElement xmi:type="uml:Collaboration" xmi:id="_4r048HYlEem0hZHO-RF5ww" name="Collaboration3">
-      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_4r4jUHYlEem0hZHO-RF5ww" name="Interaction1">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_4r4jUHYlEem0hZHO-RF5ww" name="Somministrazione di un test pilota">
         <eAnnotations xmi:id="_4r7moHYlEem0hZHO-RF5ww" source="uml2.diagrams">
-          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_4r7moXYlEem0hZHO-RF5ww" type="Sequence" element="_4r4jUHYlEem0hZHO-RF5ww" name="somministrazione test pilota" measurementUnit="Himetric">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_4r7moXYlEem0hZHO-RF5ww" type="Sequence" element="_4r4jUHYlEem0hZHO-RF5ww" name="Diagramma di sequenza per la somministrazione di un test pilota" measurementUnit="Himetric">
             <children xmi:type="umlnotation:UMLShape" xmi:id="_4r7monYlEem0hZHO-RF5ww" element="_4r4jUHYlEem0hZHO-RF5ww" fontName="Cantarell" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
               <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_4r7mo3YlEem0hZHO-RF5ww" type="interaction_compartment">
                 <children xmi:type="umlnotation:UMLShape" xmi:id="_8wbW0HYlEem0hZHO-RF5ww" element="_8wY6kHYlEem0hZHO-RF5ww" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -1627,9 +1622,9 @@
       <ownedAttribute xmi:id="_8wY6kXYlEem0hZHO-RF5ww" name="Soggetto sano"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Collaboration" xmi:id="_vv5DQHYmEem0hZHO-RF5ww" name="Collaboration4">
-      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_vv8toHYmEem0hZHO-RF5ww" name="Interaction1">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_vv8toHYmEem0hZHO-RF5ww" name="Creazione di un test clinico">
         <eAnnotations xmi:id="_vv_J4HYmEem0hZHO-RF5ww" source="uml2.diagrams">
-          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_vv_J4XYmEem0hZHO-RF5ww" type="Sequence" element="_vv8toHYmEem0hZHO-RF5ww" name="creazione test clinico" measurementUnit="Himetric">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_vv_J4XYmEem0hZHO-RF5ww" type="Sequence" element="_vv8toHYmEem0hZHO-RF5ww" name="Diagramma di sequenza per la creazione di un test clinico" measurementUnit="Himetric">
             <children xmi:type="umlnotation:UMLShape" xmi:id="_vv_J4nYmEem0hZHO-RF5ww" element="_vv8toHYmEem0hZHO-RF5ww" fontName="Cantarell" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
               <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_vv_J43YmEem0hZHO-RF5ww" type="interaction_compartment">
                 <eAnnotations xmi:id="_paWrIHezEem8XZ9xaCiWfA" source="Himetric"/>
@@ -1795,9 +1790,9 @@
       <ownedAttribute xmi:id="_yODu0HYmEem0hZHO-RF5ww" name="Server"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Collaboration" xmi:id="_TvkWoHYnEem0hZHO-RF5ww" name="Collaboration5">
-      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_TvnZ8HYnEem0hZHO-RF5ww" name="Interaction1">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_TvnZ8HYnEem0hZHO-RF5ww" name="Somministrazione di un test clinico">
         <eAnnotations xmi:id="_Tvp2MHYnEem0hZHO-RF5ww" source="uml2.diagrams">
-          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Tvp2MXYnEem0hZHO-RF5ww" type="Sequence" element="_TvnZ8HYnEem0hZHO-RF5ww" name="somministrazione test clinico" measurementUnit="Himetric">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Tvp2MXYnEem0hZHO-RF5ww" type="Sequence" element="_TvnZ8HYnEem0hZHO-RF5ww" name="Diagramma di sequenza per la somministrazione di un test clinico" measurementUnit="Himetric">
             <children xmi:type="umlnotation:UMLShape" xmi:id="_Tvp2MnYnEem0hZHO-RF5ww" element="_TvnZ8HYnEem0hZHO-RF5ww" fontName="Cantarell" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
               <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_Tvp2M3YnEem0hZHO-RF5ww" type="interaction_compartment">
                 <children xmi:type="umlnotation:UMLShape" xmi:id="_bGzp8HYnEem0hZHO-RF5ww" element="_bGtjUHYnEem0hZHO-RF5ww" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -2156,17 +2151,6 @@
       <ownedAttribute xmi:id="_XzOZUHYnEem0hZHO-RF5ww" name="Soggetto"/>
       <ownedAttribute xmi:id="_bGuKYHYnEem0hZHO-RF5ww" name="Server"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Collaboration" xmi:id="_C4JKoHbkEemBNfsETgEjNQ" name="Collaboration6">
-      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_C4Uw0HbkEemBNfsETgEjNQ" name="Interaction1">
-        <eAnnotations xmi:id="_C47NwHbkEemBNfsETgEjNQ" source="uml2.diagrams"/>
-        <lifeline xmi:id="_SQSZUHbkEemBNfsETgEjNQ" name="Property" represents="_SQTAYHbkEemBNfsETgEjNQ"/>
-        <lifeline xmi:id="_WbZH0HbkEemBNfsETgEjNQ" name="Property2" represents="_WbZH0XbkEemBNfsETgEjNQ"/>
-      </ownedBehavior>
-      <ownedAttribute xmi:id="_EJWT0HbkEemBNfsETgEjNQ" name="Property"/>
-      <ownedAttribute xmi:id="_EmzE0HbkEemBNfsETgEjNQ" name="server"/>
-      <ownedAttribute xmi:id="_SQTAYHbkEemBNfsETgEjNQ" name="Esperto"/>
-      <ownedAttribute xmi:id="_WbZH0XbkEemBNfsETgEjNQ" name="server"/>
-    </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_Bifw4HblEemBNfsETgEjNQ" memberEnd="_BikCUHblEemBNfsETgEjNQ _BiqI8HblEemBNfsETgEjNQ" navigableOwnedEnd="_BikCUHblEemBNfsETgEjNQ _BiqI8HblEemBNfsETgEjNQ">
       <ownedEnd xmi:id="_BikCUHblEemBNfsETgEjNQ" name="server centralizzato" visibility="private" type="_nhvPUHNjEemYfZkur1G4Eg" association="_Bifw4HblEemBNfsETgEjNQ">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BioTwHblEemBNfsETgEjNQ" value="1"/>
@@ -2178,9 +2162,9 @@
       </ownedEnd>
     </packagedElement>
     <packagedElement xmi:type="uml:Collaboration" xmi:id="_O45xUHblEemBNfsETgEjNQ" name="Collaboration7">
-      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_O46_cHblEemBNfsETgEjNQ" name="Interaction1">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_O46_cHblEemBNfsETgEjNQ" name="Valutazione di un test">
         <eAnnotations xmi:id="_O48NkHblEemBNfsETgEjNQ" source="uml2.diagrams">
-          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_O48NkXblEemBNfsETgEjNQ" type="Sequence" element="_O46_cHblEemBNfsETgEjNQ" name="valutazione" measurementUnit="Himetric">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_O48NkXblEemBNfsETgEjNQ" type="Sequence" element="_O46_cHblEemBNfsETgEjNQ" name="Diagramma di sequenza per la valutazione di un test" measurementUnit="Himetric">
             <children xmi:type="umlnotation:UMLShape" xmi:id="_O48NknblEemBNfsETgEjNQ" element="_O46_cHblEemBNfsETgEjNQ" fontName="Cantarell" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
               <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_O48Nk3blEemBNfsETgEjNQ" type="interaction_compartment">
                 <children xmi:type="umlnotation:UMLShape" xmi:id="_WI9ekHblEemBNfsETgEjNQ" element="_WI6bQHblEemBNfsETgEjNQ" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -2350,9 +2334,9 @@
       </ownedEnd>
     </packagedElement>
     <packagedElement xmi:type="uml:Collaboration" xmi:id="_iYe6AHbmEemBNfsETgEjNQ" name="Collaboration8">
-      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_iYjLcHbmEemBNfsETgEjNQ" name="Interaction1">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_iYjLcHbmEemBNfsETgEjNQ" name="Visualizzazione dei risultati">
         <eAnnotations xmi:id="_iYnc4HbmEemBNfsETgEjNQ" source="uml2.diagrams">
-          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_iYnc4XbmEemBNfsETgEjNQ" type="Sequence" element="_iYjLcHbmEemBNfsETgEjNQ" name="visualizzazione risultati" measurementUnit="Himetric">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_iYnc4XbmEemBNfsETgEjNQ" type="Sequence" element="_iYjLcHbmEemBNfsETgEjNQ" name="Diagramma di sequenza per la visualizzazione dei risultati" measurementUnit="Himetric">
             <children xmi:type="umlnotation:UMLShape" xmi:id="_iYnc4nbmEemBNfsETgEjNQ" element="_iYjLcHbmEemBNfsETgEjNQ" fontName="Cantarell" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
               <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_iYnc43bmEemBNfsETgEjNQ" type="interaction_compartment">
                 <children xmi:type="umlnotation:UMLShape" xmi:id="_vc_SIHbmEemBNfsETgEjNQ" element="_vc5LgHbmEemBNfsETgEjNQ" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">

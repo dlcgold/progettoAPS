@@ -1,0 +1,52 @@
+Contratto labels:
+
+Operazione: createLabel(larghezza_label: integer, altezza_label: integer, dim_font: integer, fattore_font: integer, num_lettere: integer)
+
+Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
+
+Pre-condizione: esistenza di una slide
+
+Post-condizioni: - è stata creata una label
+		 - è stata inserita nella slide una label
+
+
+
+
+Operazione: resizeLabel(Label: label, newAltezza_label: integer)
+
+Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
+
+Pre-condizione: esistenza di una label da modificare,
+		Label.getLarghezza_label * newAltezza_label >= Label.getDim_font * Label.getNum_lettere * Label.getFattore_font
+
+Post-condizione: - è stata ridimensionata la dimensione della label
+
+
+
+
+
+
+Contratto riquadri immagini:
+
+Operazione: createRiquadroImg(URL: url)
+
+Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
+
+Pre-condizione: esistenza di una slide, correttezza dell'URL, il file deve essere in formato PNG
+
+Post-condizione: - è stato creato un riquadro immagine
+		 - è stato inserito un riquadro immagine nella slide
+
+
+
+
+Contratto casella di testo:
+
+Operazione: createCasellaTxt(largezza: integer, altezza: integer)
+
+Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
+
+Pre-condizione: esistenza di una slide
+
+Post-condizione: - è stata creata una casella di testo
+		 - è stata inserita una casella di testo nella slide

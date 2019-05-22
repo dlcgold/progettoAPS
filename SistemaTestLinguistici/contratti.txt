@@ -6,8 +6,8 @@ Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
 
 Pre-condizione: esistenza di una slide
 
-Post-condizioni: - � stata creata una label
-		 - � stata inserita nella slide una label
+Post-condizioni: - è stata creata una label
+		         - è stata inserita nella slide una label
 
 
 
@@ -19,34 +19,160 @@ Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
 Pre-condizione: esistenza di una label da modificare,
 		Label.getLarghezza_label * newAltezza_label >= Label.getDim_font * Label.getNum_lettere * Label.getFattore_font
 
-Post-condizione: - � stata ridimensionata la dimensione della label
+Post-condizione: - è stata ridimensionata la dimensione della label
 
 
 
-
-
-
-Contratto riquadri immagini:
-
-Operazione: createRiquadroImg(URL: url)
+Operazione: changeFont(Label: label, newFont: String)
 
 Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
 
-Pre-condizione: esistenza di una slide, correttezza dell'URL, il file deve essere in formato PNG
+Pre-condizione: esistenza di una label con font da modificare,
+		Label.getLarghezza_label * newAltezza_label >= Label.getDim_font * Label.getNum_lettere * newFont.getFattore_font
 
-Post-condizione: - � stato creato un riquadro immagine
-		 - � stato inserito un riquadro immagine nella slide
+Post-condizione: - è stata ridimensionata la dimensione del font
+
+Operazione: changeFont(Label: label, newText: String)
+
+Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
+
+Pre-condizione: esistenza di un testo  da modificare,
+		Label.getLarghezza_label * newAltezza_label >= Label.getDim_font * newText.getNum_lettere * newFont.getFattore_font
+
+Post-condizione: - è stato cambiato il testo
 
 
 
+Contratto checkbox:
 
-Contratto casella di testo:
+Operazione: createCheckBox(larghezza_check_box : integer, altezza_check_box : integer, dim_font: integer, testo: label)
 
-Operazione: createCasellaTxt(largezza: integer, altezza: integer)
+Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
+
+Pre-condizione: esistenza di una slide ed esistenza di una label
+                altezza_check_box = max(label.getAltezza, slide.getAltezza * 2 / 1000)
+				larghezza_check_box = label.getLarghezza + slide.getAltezza * 2 / 1000
+
+Post-condizioni: - è stata creata una checkbox
+		         - è stata inserita una label nella checkbox
+				 - è stata inserita una checkbox nella slide
+
+
+Operazione: resizeCheckBox(checkbox : check_box, newAltezza : integer, newLarghezza : integer)
+
+Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
+
+Pre-condizione: esistenza di una slide ed esistenza di una checkbox
+                check_box.altezza = newAltezza
+				check_box.larghezza = newLarghezza
+
+Post-condizioni: - è stata modificata la dimensione di una checkbox
+
+
+Operazione: changeCheckboxText(checkbox : check_box, newText : String)
+
+Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
+
+Pre-condizione: esistenza di una slide ed esistenza di una checkbox
+
+Post-condizioni: - è stata modificato il testo della label contenuta nella checkbox
+
+
+Operazione: isChecked(checkbox : check_box)
+
+Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
+
+Pre-condizione: esistenza di una slide ed esistenza di una checkbox
+
+Post-condizioni: - è stato controllato lo stato della checkbox
+
+
+
+Contratto combobox:
+
+Operazione: createComboBox(larghezza_combo_box : integer, altezza_combo_box : integer, dim_font: integer, testi : label[])
+
+Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
+
+Pre-condizione: esistenza di una slide ed esistenza di una label
+                altezza_combo_box = max(sum(testi[i].getAltezza), slide.getAltezza * 2 / 1000)
+				larghezza_combo_box = sum(testi[i].getLarghezza) + slide.getAltezza * 2 / 1000
+
+Post-condizioni: - è stata creata una combobox
+		         - sono state inserite delle label nella combobox
+				 - è stata inserita una combobox nella slide
+
+
+Operazione: resizeComboBox(combobox : combo_box, newAltezza : integer, newLarghezza : integer)
+
+Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
+
+Pre-condizione: esistenza di una slide ed esistenza di una combobox
+                combo_box.altezza = newAltezza
+				combo_box.larghezza = newLarghezza
+
+Post-condizioni: - è stata modificata la dimensione di una combobox
+
+
+Operazione: changeComboboxText(combobox : combo_box, position : integer, newText : String)
+
+Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
+
+Pre-condizione: esistenza di una slide ed esistenza di una combobox
+
+Post-condizioni: - è stata modificato il testo della label contenuta nella combobox in posizione specificata
+
+
+Operazione: whichIsChecked(checkbox : combo_box)
+
+Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
+
+Pre-condizione: esistenza di una slide ed esistenza di una combobox
+
+Post-condizioni: - è stato controllato quali stati sono selezionati nella della combobox
+
+
+Contratto tabella:
+
+Operazione: createTabella(larghezza_tabella : integer, altezza_tabella : integer, elementi : elemento_grafico[])
 
 Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
 
 Pre-condizione: esistenza di una slide
+                altezza_tabella = sum(riga[i].getAltezza)
+				larghezza_tabella = sum(colonna[i].getAltezza)
 
-Post-condizione: - � stata creata una casella di testo
-		 - � stata inserita una casella di testo nella slide
+Post-condizioni: - è stata creata una tabella
+				 - è stata inserita una tabella nella slide
+
+
+Operazione: resizeTabella(tabella : tabella, newAltezza : integer, newLarghezza : integer)
+
+Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
+
+Pre-condizione: esistenza di una slide ed esistenza di una tabella
+                tabella.altezza = newAltezza
+				tabella.larghezza = newLarghezza
+
+Post-condizioni: - è stata modificata la dimensione di una tabella
+
+
+Operazione: aggiuntaElementoATabella(tabella : tabella, elemento : elemento_grafico, numeroRiga : integer, numeroColonna : integer)
+
+Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
+
+Pre-condizione: esistenza di una slide ed esistenza di una tabella
+
+Post-condizioni: - è stato aggiunto un elemento grafico da una casalla tabella
+
+
+
+
+Operazione: deleteElementoTabella(tabella : tabella, elemento : elemento_grafico, numeroRiga : integer, numeroColonna : integer)
+
+Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
+
+Pre-condizione: esistenza di una slide ed esistenza di una tabella
+                
+
+Post-condizioni: - è stato cancellato un elemento grafico da una casella specifica

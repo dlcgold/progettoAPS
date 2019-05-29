@@ -1,44 +1,48 @@
 CONTRATTO LABELS:
 
-Operazione: createLabel(larghezzaLabel: Integer, altezzaLabel: Integer, dimensioneFont: Integer, fattoreFont: Integer, numLettere: Integer)
+Operazione: createLabel(larghezzaLabel: Integer, altezzaLabel: Integer, dimensioneFont: Integer, fattoreFont: Integer, numLettere: Integer, id: Identity)
 
 Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
 
-Pre-condizione: esistenza di una slide
+Pre-condizione: - id == elemento.getProprietarioID() [l'utente (id) è verificato]
+				- esistenza di una slide
 
 Post-condizioni: - è stata creata una label
 		         - è stata inserita nella slide una label
 
 
 
-Operazione: resizeLabel(Label: Label, newAltezzaLabel: Integer)
+Operazione: resizeLabel(Label: Label, newAltezzaLabel: Integer, id: Identity)
 
 Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
 
-Pre-condizione: esistenza di una label da modificare,
-		Label.getLarghezzaLabel * newAltezzaLabel >= Label.getDimensioneFont * Label.getNumLettere * Label.getFattoreFont
+Pre-condizione: - id == elemento.getProprietarioID() [l'utente (id) è verificato]
+				- esistenza di una label da modificare,
+					Label.getLarghezzaLabel * newAltezzaLabel >= Label.getDimensioneFont * Label.getNumLettere * Label.getFattoreFont
 
 Post-condizione: - è stata ridimensionata la dimensione della label
 
 
 
-Operazione: changeFont(Label: Label, newFont: String)
+Operazione: changeFont(Label: Label, newFont: String, id: Identity)
 
 Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
 
-Pre-condizione: esistenza di una label con font da modificare,
-		Label.getLarghezzaLabel * newAltezzaLabel >= Label.getDimensioneFont * Label.getNumLettere * newFont.getFattoreFont
+Pre-condizione: - id == elemento.getProprietarioID() [l'utente (id) è verificato]
+				- esistenza di una label con font da modificare,
+					Label.getLarghezzaLabel * newAltezzaLabel >= Label.getDimensioneFont * Label.getNumLettere * newFont.getFattoreFont
 
 Post-condizione: - è stata ridimensionata la dimensione del font
 
 
 
-Operazione: changeFont(Label: Label, newText: String)
+Operazione: changeText(Label: Label, newText: String, id: Identity)
 
 Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
 
-Pre-condizione: esistenza di un testo  da modificare,
-		Label.getLarghezzaLabel * newAltezzaLabel >= Label.getDimensioneFont * newText.getNumLettere * newFont.getFattoreFont
+Pre-condizione: - id == elemento.getProprietarioID() [l'utente (id) è verificato]
+				- esistenza di un testo  da modificare,
+					Label.getLarghezzaLabel * newAltezzaLabel >= Label.getDimensioneFont * newText.getNumLettere * newFont.getFattoreFont
 
 Post-condizione: - è stato cambiato il testo
 
@@ -46,13 +50,14 @@ Post-condizione: - è stato cambiato il testo
 
 CONTRATTO CHECKBOX:
 
-Operazione: createCheckbox(larghezzaCheckbox: Integer, altezzaCheckbox: Integer, dimensioneFont: Integer, testo: Label)
+Operazione: createCheckbox(larghezzaCheckbox: Integer, altezzaCheckbox: Integer, dimensioneFont: Integer, testo: Label, id: Identity)
 
 Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
 
-Pre-condizione: esistenza di una slide ed esistenza di una label
-                altezzaCheckbox = max(label.getAltezza, slide.getAltezza * 2 / 1000)
-				larghezzaCheckbox = label.getLarghezza + slide.getAltezza * 2 / 1000
+Pre-condizione: - id == elemento.getProprietarioID() [l'utente (id) è verificato]
+				- esistenza di una slide ed esistenza di una label
+                - altezzaCheckbox = max(label.getAltezza, slide.getAltezza * 2 / 1000)
+				- larghezzaCheckbox = label.getLarghezza + slide.getAltezza * 2 / 1000
 
 Post-condizioni: - è stata creata una checkbox
 		         - è stata inserita una label nella checkbox
@@ -60,23 +65,25 @@ Post-condizioni: - è stata creata una checkbox
 
 
 
-Operazione: resizeCheckbox(checkbox: Checkbox, newAltezza: Integer, newLarghezza: Integer)
+Operazione: resizeCheckbox(checkbox: Checkbox, newAltezza: Integer, newLarghezza: Integer, id: Identity)
 
 Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
 
-Pre-condizione: esistenza di una slide ed esistenza di una checkbox
-                checkbox.altezza = newAltezza
-				checkbox.larghezza = newLarghezza
+Pre-condizione: - id == elemento.getProprietarioID() [l'utente (id) è verificato]
+				- esistenza di una slide ed esistenza di una checkbox
+                - checkbox.altezza = newAltezza
+				- checkbox.larghezza = newLarghezza
 
 Post-condizioni: - è stata modificata la dimensione di una checkbox
 
 
 
-Operazione: changeCheckboxText(checkbox: Checkbox, newText: String)
+Operazione: changeCheckboxText(checkbox: Checkbox, newText: String, id: Identity)
 
 Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
 
-Pre-condizione: esistenza di una slide ed esistenza di una checkbox
+Pre-condizione: - id == elemento.getProprietarioID() [l'utente (id) è verificato]
+				- esistenza di una slide ed esistenza di una checkbox
 
 Post-condizioni: - è stata modificato il testo della label contenuta nella checkbox
 
@@ -90,17 +97,28 @@ Pre-condizione: esistenza di una slide ed esistenza di una checkbox
 
 Post-condizioni: - è stato controllato lo stato della checkbox
 
+
+
+Operazione: setRispostaCheckBox(checkbox: Checkbox)
+
+Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
+
+Pre-condizione: esistenza di una slide ed esistenza della checkbox
+
+Post-condizioni: lo stato della checkbox assume valore = !isChecked(checkbox)
+
 ---------------
 
 CONTRATTO COMBOBOX:
 
-Operazione: createCombobox(larghezzaCombobox: Integer, altezzaCombobox: Integer, dimensioneFont: Integer, testi: Label[])
+Operazione: createCombobox(larghezzaCombobox: Integer, altezzaCombobox: Integer, dimensioneFont: Integer, testi: Label[], id: Identity)
 
 Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
 
-Pre-condizione: esistenza di una slide ed esistenza di una label
-                altezzaCombobox = max(sum(testi[i].getAltezza), slide.getAltezza * 2 / 1000)
-				larghezzaCombobox = sum(testi[i].getLarghezza) + slide.getAltezza * 2 / 1000
+Pre-condizione: - id == elemento.getProprietarioID() [l'utente (id) è verificato]
+				- esistenza di una slide ed esistenza di una label
+                - altezzaCombobox = max(sum(testi[i].getAltezza), slide.getAltezza * 2 / 1000)
+				- larghezzaCombobox = sum(testi[i].getLarghezza) + slide.getAltezza * 2 / 1000
 
 Post-condizioni: - è stata creata una combobox
 		         - sono state inserite delle label nella combobox
@@ -108,23 +126,25 @@ Post-condizioni: - è stata creata una combobox
 
 
 
-Operazione: resizeCombobox(combobox: Combobox, newAltezza: Integer, newLarghezza: Integer)
+Operazione: resizeCombobox(combobox: Combobox, newAltezza: Integer, newLarghezza: Integer, id: Identity)
 
 Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
 
-Pre-condizione: esistenza di una slide ed esistenza di una combobox
-                combobox.altezza = newAltezza
-				combobox.larghezza = newLarghezza
+Pre-condizione: - id == elemento.getProprietarioID() [l'utente (id) è verificato]
+				- esistenza di una slide ed esistenza di una combobox
+                - combobox.altezza = newAltezza
+				- combobox.larghezza = newLarghezza
 
 Post-condizioni: - è stata modificata la dimensione di una combobox
 
 
 
-Operazione: changeComboboxText(combobox: Combobox, position: Integer, newText: String)
+Operazione: changeComboboxText(combobox: Combobox, position: Integer, newText: String, id: Identity)
 
 Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
 
-Pre-condizione: esistenza di una slide ed esistenza di una combobox
+Pre-condizione: - id == elemento.getProprietarioID() [l'utente (id) è verificato]
+                - esistenza di una slide ed esistenza di una combobox
 
 Post-condizioni: - è stata modificato il testo della label contenuta nella combobox in posizione specificata
 
@@ -142,45 +162,65 @@ Post-condizioni: - è stato controllato quali stati sono selezionati nella della
 
 CONTRATTO TABELLA:
 
-Operazione: createTabella(larghezzaTabella: Integer, altezzaTabella: Integer, elementi: ElementoGrafico[])
+Operazione: createTabella(larghezzaTabella: Integer, altezzaTabella: Integer, elementi: ElementoGrafico[], id: Identity)
 
 Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
 
-Pre-condizione: esistenza di una slide
-                altezzaTabella = sum(riga[i].getAltezza)
-				larghezzaTabella = sum(colonna[i].getAltezza)
+Pre-condizione: - id == elemento.getProprietarioID() [l'utente (id) è verificato]
+                - esistenza di una slide
+                - altezzaTabella = sum(riga[i].getAltezza)
+				- larghezzaTabella = sum(colonna[i].getAltezza)
 
 Post-condizioni: - è stata creata una tabella
 				 - è stata inserita una tabella nella slide
 
 
 
-Operazione: resizeTabella(tabella: Tabella, newAltezza: Integer, newLarghezza: Integer)
+Operazione: resizeTabella(tabella: Tabella, newAltezza: Integer, newLarghezza: Integer, id: Identity)
 
 Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
 
-Pre-condizione: esistenza di una slide ed esistenza di una tabella
-                tabella.altezza = newAltezza
-				tabella.larghezza = newLarghezza
+Pre-condizione: - id == elemento.getProprietarioID() [l'utente (id) è verificato]
+                - esistenza di una slide ed esistenza di una tabella
+                - tabella.altezza = newAltezza
+				- tabella.larghezza = newLarghezza
 
 Post-condizioni: - è stata modificata la dimensione di una tabella
 
 
 
-Operazione: aggiuntaElementoATabella(tabella: Tabella, elemento: ElementoGrafico, numeroRiga: Integer, numeroColonna: Integer)
+Operazione: aggiuntaElementoATabella(tabella: Tabella, elemento: ElementoGrafico, numeroRiga: Integer, numeroColonna: Integer, id: Identity)
 
 Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
 
-Pre-condizione: esistenza di una slide ed esistenza di una tabella
+Pre-condizione: - id == elemento.getProprietarioID() [l'utente (id) è verificato]
+                - esistenza di una slide ed esistenza di una tabella
 
 Post-condizioni: - è stato aggiunto un elemento grafico da una casalla tabella
 
 
 
-Operazione: deleteElementoTabella(tabella: Tabella, elemento: ElementoGrafico, numeroRiga: Integer, numeroColonna: Integer)
+Operazione: deleteElementoTabella(tabella: Tabella, elemento: ElementoGrafico, numeroRiga: Integer, numeroColonna: Integer, id: Identity)
 
 Riferimenti: casi d'uso: Creazione test pilota, Creazione test clinico
 
-Pre-condizione: esistenza di una slide ed esistenza di una tabella
+Pre-condizione: - id == elemento.getProprietarioID() [l'utente (id) è verificato]
+				- esistenza di una slide ed esistenza di una tabella
+
 
 Post-condizioni: - è stato cancellato un elemento grafico da una casella specifica
+
+
+---------------
+
+CONTRATTO IDENTITY:
+
+Operazione: login(username: String, password: String)
+
+Riferimenti: casi d'uso: Login
+
+Pre-condizione: esistenza di un accout con quelle credenziali
+
+Post-condizioni: - è stato effettuato l'accesso
+
+

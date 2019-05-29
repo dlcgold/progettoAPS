@@ -176,6 +176,25 @@
           <children xmi:type="notation:ListCompartment" xmi:id="_uMgTgIEfEem3Eshx22eO_g" visible="false" type="Extension_Points"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uMd3QYEfEem3Eshx22eO_g" x="23071" y="20002"/>
         </children>
+        <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="__GeD8IIUEem8UJ1KzUiJzA" element="__GJ64IIUEem8UJ1KzUiJzA" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+          <children xmi:type="notation:DecorationNode" xmi:id="__GfSEIIUEem8UJ1KzUiJzA" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="__GfSEYIUEem8UJ1KzUiJzA" width="2216" height="1322"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="__Gf5IIIUEem8UJ1KzUiJzA" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="__Gf5IYIUEem8UJ1KzUiJzA" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="__Gf5IoIUEem8UJ1KzUiJzA" type="Parent"/>
+          <children xmi:type="notation:ListCompartment" xmi:id="__GggMIIUEem8UJ1KzUiJzA" visible="false" type="Extension_Points"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="__GeD8YIUEem8UJ1KzUiJzA" x="15708" y="13596"/>
+        </children>
+        <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_AzBsYIIVEem8UJ1KzUiJzA" element="_Ay0RAIIVEem8UJ1KzUiJzA" fontName="Cantarell" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
+          <children xmi:type="notation:DecorationNode" xmi:id="_AzBsYoIVEem8UJ1KzUiJzA" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_AzBsY4IVEem8UJ1KzUiJzA" width="1455" height="2381"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_AzCTcIIVEem8UJ1KzUiJzA" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_AzCTcYIVEem8UJ1KzUiJzA" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_AzCTcoIVEem8UJ1KzUiJzA" type="Parent"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AzBsYYIVEem8UJ1KzUiJzA" x="31827"/>
+        </children>
         <element xsi:nil="true"/>
         <edges xmi:type="umlnotation:UMLConnector" xmi:id="_yDN4wHNdEemYfZkur1G4Eg" element="_yCwlwHNdEemYfZkur1G4Eg" source="_ceyG8HNdEemYfZkur1G4Eg" target="_tgX_sHNdEemYfZkur1G4Eg" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
           <children xmi:type="notation:DecorationNode" xmi:id="_yDOf0HNdEemYfZkur1G4Eg" type="NameLabel">
@@ -865,6 +884,42 @@
           </children>
           <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_M0H9EYEgEem3Eshx22eO_g" points="[-7, 7, 209, -218]$[-207, 213, 9, -12]"/>
         </edges>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_MkXMcIIVEem8UJ1KzUiJzA" element="_MkRF0IIVEem8UJ1KzUiJzA" source="_t2L-AHNlEemYfZkur1G4Eg" target="__GeD8IIUEem8UJ1KzUiJzA" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_MkYakIIVEem8UJ1KzUiJzA" type="KindLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_MkZBoIIVEem8UJ1KzUiJzA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_MkZosIIVEem8UJ1KzUiJzA" type="Kind"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_MkZBoYIVEem8UJ1KzUiJzA" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MkYakYIVEem8UJ1KzUiJzA" y="-186"/>
+          </children>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MkXMcYIVEem8UJ1KzUiJzA" points="[25, 8, -128, -30]$[123, 42, -30, 4]"/>
+        </edges>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_RsXBAIIVEem8UJ1KzUiJzA" element="_RsSIgIIVEem8UJ1KzUiJzA" source="_B2mYUHNmEemYfZkur1G4Eg" target="__GeD8IIUEem8UJ1KzUiJzA" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_RsXoEIIVEem8UJ1KzUiJzA" type="KindLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_RsYPIIIVEem8UJ1KzUiJzA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_RsY2MYIVEem8UJ1KzUiJzA" type="Kind"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_RsY2MIIVEem8UJ1KzUiJzA" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RsXoEYIVEem8UJ1KzUiJzA" y="-186"/>
+          </children>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RsXBAYIVEem8UJ1KzUiJzA" points="[11, -8, -87, 63]$[90, -56, -8, 15]"/>
+        </edges>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_TZQnsIIVEem8UJ1KzUiJzA" element="_TZOygIIVEem8UJ1KzUiJzA" source="_ZKMiAHNjEemYfZkur1G4Eg" target="__GeD8IIUEem8UJ1KzUiJzA" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_TZQnsoIVEem8UJ1KzUiJzA" type="KindLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_TZROwIIVEem8UJ1KzUiJzA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_TZROwoIVEem8UJ1KzUiJzA" type="Kind"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_TZROwYIVEem8UJ1KzUiJzA" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TZQns4IVEem8UJ1KzUiJzA" y="-186"/>
+          </children>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TZQnsYIVEem8UJ1KzUiJzA" points="[1322, 0, -10633, -13728]$[2785, 0, -9170, -13728]$[2785, 6297, -9170, -7431]$[2891, 6297, -9064, -7431]$[2891, 13728, -9064, 0]$[10847, 13728, -1108, 0]"/>
+        </edges>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_VkYbcIIVEem8UJ1KzUiJzA" element="_VkUKAIIVEem8UJ1KzUiJzA" source="_tgX_sHNdEemYfZkur1G4Eg" target="__GeD8IIUEem8UJ1KzUiJzA" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_VkZpkIIVEem8UJ1KzUiJzA" type="KindLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_VkaQoIIVEem8UJ1KzUiJzA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_VkbewIIVEem8UJ1KzUiJzA" type="Kind"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_Vka3sIIVEem8UJ1KzUiJzA" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VkZpkYIVEem8UJ1KzUiJzA" y="-186"/>
+          </children>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VkYbcYIVEem8UJ1KzUiJzA" points="[3, 8, -146, -333]$[153, 356, 4, 15]"/>
+        </edges>
       </contents>
       <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_EqdAMHreEemm6OBL6maQyw" type="Class" name="Diagramma classe1">
         <children xmi:type="umlnotation:UMLShape" xmi:id="_mB9-gHreEemm6OBL6maQyw" element="_mB2CsHreEemm6OBL6maQyw" fontName="Cantarell" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -1341,6 +1396,19 @@
             </children>
           </children>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RtdVcYEeEem3Eshx22eO_g" x="24156" y="17556" width="9207" height="4180"/>
+        </children>
+        <children xmi:type="umlnotation:UMLShape" xmi:id="_lpY3gIISEem8UJ1KzUiJzA" element="_lo0PwIISEem8UJ1KzUiJzA" fontName="Cantarell" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+          <children xmi:type="notation:DecorationNode" xmi:id="_lpdwAIISEem8UJ1KzUiJzA" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_lpdwAYISEem8UJ1KzUiJzA" width="1320" height="1320"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_lpeXEIISEem8UJ1KzUiJzA" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_lpeXEYISEem8UJ1KzUiJzA" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_lpeXEoISEem8UJ1KzUiJzA" type="Parent"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_lpeXE4ISEem8UJ1KzUiJzA" type="AttributeCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_lpe-IIISEem8UJ1KzUiJzA" type="OperationCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_lpe-IYISEem8UJ1KzUiJzA" visible="false" type="SignalCompartment"/>
+          <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_lpflMIISEem8UJ1KzUiJzA" visible="false" type="StructureCompartment"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lpY3gYISEem8UJ1KzUiJzA" x="8448" y="-4092"/>
         </children>
         <element xsi:nil="true"/>
         <edges xmi:type="umlnotation:UMLConnector" xmi:id="_29VTcHreEemm6OBL6maQyw" element="_29LicHreEemm6OBL6maQyw" source="_k9u6UHreEemm6OBL6maQyw" target="_mB9-gHreEemm6OBL6maQyw" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -2488,6 +2556,87 @@
           </children>
           <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nil1sYEeEem3Eshx22eO_g" points="[1248, 4521, 3808, -6367]$[1248, 7941, 3808, -2947]"/>
         </edges>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_whiFwIISEem8UJ1KzUiJzA" element="_whCWgIISEem8UJ1KzUiJzA" source="_lpY3gIISEem8UJ1KzUiJzA" target="_k9u6UHreEemm6OBL6maQyw" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_whis0IISEem8UJ1KzUiJzA" type="NameLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_whis0oISEem8UJ1KzUiJzA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_whis04ISEem8UJ1KzUiJzA" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_whis0YISEem8UJ1KzUiJzA" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_whjT4IISEem8UJ1KzUiJzA" type="ToMultiplicityLabel" element="_whPK0IISEem8UJ1KzUiJzA">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_whj68IISEem8UJ1KzUiJzA" type="ToMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_whjT4YISEem8UJ1KzUiJzA" y="396"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_whj68YISEem8UJ1KzUiJzA" type="ToRoleLabel" element="_whPK0IISEem8UJ1KzUiJzA">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_whj684ISEem8UJ1KzUiJzA" type="ToRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_whj68oISEem8UJ1KzUiJzA" y="-397"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_whkiAIISEem8UJ1KzUiJzA" type="FromMultiplicityLabel" element="_whIdIIISEem8UJ1KzUiJzA">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_whkiAoISEem8UJ1KzUiJzA" type="FromMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_whkiAYISEem8UJ1KzUiJzA" y="396"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_whkiA4ISEem8UJ1KzUiJzA" type="FromRoleLabel" element="_whIdIIISEem8UJ1KzUiJzA">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_whlJEIISEem8UJ1KzUiJzA" type="FromRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_whkiBIISEem8UJ1KzUiJzA" y="-397"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_whlJEYISEem8UJ1KzUiJzA" type="ToQualifierLabel" element="_whPK0IISEem8UJ1KzUiJzA">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_whlJE4ISEem8UJ1KzUiJzA" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_whlJEoISEem8UJ1KzUiJzA" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_whlJFIISEem8UJ1KzUiJzA" type="FromQualifierLabel" element="_whIdIIISEem8UJ1KzUiJzA">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_whlwIIISEem8UJ1KzUiJzA" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_whlJFYISEem8UJ1KzUiJzA" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_whlwIYISEem8UJ1KzUiJzA" type="ToConstraintLabel" element="_whPK0IISEem8UJ1KzUiJzA">
+            <children xmi:type="notation:ListCompartment" xmi:id="_whlwI4ISEem8UJ1KzUiJzA" type="ToConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_whlwIoISEem8UJ1KzUiJzA" y="1058"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_whlwJIISEem8UJ1KzUiJzA" type="FromConstraintLabel" element="_whIdIIISEem8UJ1KzUiJzA">
+            <children xmi:type="notation:ListCompartment" xmi:id="_whmXMIISEem8UJ1KzUiJzA" type="FromConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_whlwJYISEem8UJ1KzUiJzA" y="1058"/>
+          </children>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_whiFwYISEem8UJ1KzUiJzA" points="[2, 26, 2, -40]$[2, 46, 2, -20]"/>
+        </edges>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_yBrC0IISEem8UJ1KzUiJzA" element="_yBOW4IISEem8UJ1KzUiJzA" source="_lpY3gIISEem8UJ1KzUiJzA" target="_m0r3EHrtEem_NfkF4GLHpg" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_yBrp4IISEem8UJ1KzUiJzA" type="NameLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_yBrp4oISEem8UJ1KzUiJzA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_yBrp44ISEem8UJ1KzUiJzA" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yBrp4YISEem8UJ1KzUiJzA" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_yBrp5IISEem8UJ1KzUiJzA" type="ToMultiplicityLabel" element="_yBVEkIISEem8UJ1KzUiJzA">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_yBsQ8IISEem8UJ1KzUiJzA" type="ToMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_yBrp5YISEem8UJ1KzUiJzA" y="396"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_yBsQ8YISEem8UJ1KzUiJzA" type="ToRoleLabel" element="_yBVEkIISEem8UJ1KzUiJzA">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_yBsQ84ISEem8UJ1KzUiJzA" type="ToRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_yBsQ8oISEem8UJ1KzUiJzA" y="-397"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_yBsQ9IISEem8UJ1KzUiJzA" type="FromMultiplicityLabel" element="_yBQzIIISEem8UJ1KzUiJzA">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_yBsQ9oISEem8UJ1KzUiJzA" type="FromMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_yBsQ9YISEem8UJ1KzUiJzA" x="2656" y="-502"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_yBs4AIISEem8UJ1KzUiJzA" visible="false" type="FromRoleLabel" element="_yBQzIIISEem8UJ1KzUiJzA">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_yBs4AoISEem8UJ1KzUiJzA" type="FromRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_yBs4AYISEem8UJ1KzUiJzA" y="-397"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_yBtfEIISEem8UJ1KzUiJzA" type="ToQualifierLabel" element="_yBVEkIISEem8UJ1KzUiJzA">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_yBtfEoISEem8UJ1KzUiJzA" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_yBtfEYISEem8UJ1KzUiJzA" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_yBtfE4ISEem8UJ1KzUiJzA" type="FromQualifierLabel" element="_yBQzIIISEem8UJ1KzUiJzA">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_yBtfFYISEem8UJ1KzUiJzA" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_yBtfFIISEem8UJ1KzUiJzA" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_yBtfFoISEem8UJ1KzUiJzA" type="ToConstraintLabel" element="_yBVEkIISEem8UJ1KzUiJzA">
+            <children xmi:type="notation:ListCompartment" xmi:id="_yBuGIIISEem8UJ1KzUiJzA" type="ToConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_yBtfF4ISEem8UJ1KzUiJzA" y="1058"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_yBuGIYISEem8UJ1KzUiJzA" type="FromConstraintLabel" element="_yBQzIIISEem8UJ1KzUiJzA">
+            <children xmi:type="notation:ListCompartment" xmi:id="_yBuGI4ISEem8UJ1KzUiJzA" type="FromConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_yBuGIoISEem8UJ1KzUiJzA" y="1058"/>
+          </children>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yBrC0YISEem8UJ1KzUiJzA" points="[-1043, 63, 14321, -4710]$[-15603, 63, -239, -4710]$[-15603, 4480, -239, -293]"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-EnQQIISEem8UJ1KzUiJzA" id="(0.6541554959785523,0.23177842565597667)"/>
+        </edges>
       </contents>
     </eAnnotations>
     <packageImport xmi:id="_GYn_ZXMhEem7geynQZ8k_A">
@@ -2500,6 +2649,7 @@
       <ownedComment xmi:id="_dGGJIHNeEemYfZkur1G4Eg" annotatedElement="_tgO1wHNdEemYfZkur1G4Eg">
         <body>&lt;p>&lt;/p>&lt;table border=&quot;1&quot;>&lt;col width=&quot;50.0%&quot;>&lt;/col>&lt;col width=&quot;50.0%&quot;>&lt;/col>&lt;tr>&lt;td>&lt;p>&lt;b>Sezione dei Casi d'Uso&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>&lt;b>Commento&lt;/b>&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Nome del Caso d'Uso&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Creazione di un test pilota&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Portata&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Sistema per la creazione e la somministrazione di test clinici per individuare disturbi linguistici quali la dislessia e la discalculia&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Livello&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Obiettivo utente&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Attore Primario&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Esperto nei disturbi linguistici&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Parti interessate e interessi&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Esperto nei disturbi linguistici che vuole creare il test pilota&lt;/p>&lt;/li>&lt;li>&lt;p>Client dell'esperto su cui si crea il test&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Pre-condizioni&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>L'esperto deve avere una teoria da applicare&lt;/p>&lt;/li>&lt;li>&lt;p>Devono esserci domande a sufficienza&lt;/p>&lt;/li>&lt;li>&lt;p>Il client deve essere funzionante &lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Garanzia di successo&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Il test viene creato&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Scenario principale di successo&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ol>&lt;li>&lt;p>L'esperto crea un test pilota mediante il client esperto&lt;/p>&lt;/li>&lt;li>&lt;p>L'esperto inserisce le domande nel test pilota mediante il client esperto&lt;/p>&lt;/li>&lt;li>&lt;p>L'esperto salva il test pilota per i volontari sani sul client esperto&lt;/p>&lt;/li>&lt;/ol>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Estensioni&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Non ci sono abbastanza domande -&amp;gt; fallimento&lt;/p>&lt;/li>&lt;li>&lt;p>Non si riesce a rendere accessibile il test -&amp;gt; fallimento&lt;/p>&lt;/li>&lt;li>&lt;p>Il client non è funzionante -&amp;gt; fallimento&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Elenco delle variabili tecnologiche e dei dati&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Laptop in uso all'esperto&lt;/p>&lt;/li>&lt;li>&lt;p>Domande per il test linguistico&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Frequenza di ripetizione&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Tutte le volte che si necessità di creare un test clinico&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Requisiti speciali&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Non funzionale esterno legale secondo la normativa corrente&lt;/p>&lt;/td>&lt;/tr>&lt;/table>&lt;p>&lt;/p>&lt;p>&lt;/p></body>
       </ownedComment>
+      <include xmi:id="_VkUKAIIVEem8UJ1KzUiJzA" addition="__GJ64IIUEem8UJ1KzUiJzA"/>
       <extensionPoint xmi:id="_XfrEMHQDEemMc8bBOVxX-A" name="ExtensionPoint1"/>
       <extensionPoint xmi:id="_bWpOYHQGEem-F_32Acwnpw" name="ExtensionPoint2"/>
     </packagedElement>
@@ -2561,6 +2711,7 @@
         <body>&lt;p>&lt;/p>&lt;table border=&quot;1&quot;>&lt;col width=&quot;50.0%&quot;>&lt;/col>&lt;col width=&quot;50.0%&quot;>&lt;/col>&lt;tr>&lt;td>&lt;p>&lt;b>Sezione dei Casi d'Uso&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>&lt;b>Commento&lt;/b>&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Nome del Caso d'Uso&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Creazione di un test clinico&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Portata&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Sistema per la creazione e la somministrazione di test clinici per individuare disturbi linguistici quali la dislessia e la discalculia&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Livello&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Obiettivo utente&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Attore Primario&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Esperto nei disturbi linguistici&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Parti interessate e interessi&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Esperto nei disturbi linguistici che vuole creare il test&lt;/p>&lt;/li>&lt;li>&lt;p>Server centralizzato sui cui verrà salvato il test&lt;/p>&lt;/li>&lt;li>&lt;p>Client esperto&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Pre-condizioni&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>L'esperto deve avere un test pilota valido convalidato&lt;/p>&lt;/li>&lt;li>&lt;p>Deve esistere un server centralizzato a cui si ha accesso&lt;/p>&lt;/li>&lt;li>&lt;p>Il client deve essere connesso al server&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Garanzia di successo&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Il test viene creato e salvato sul server centralizzato&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Scenario principale di successo&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ol>&lt;li>&lt;p>L'esperto inserisce le domande convalidate col test pilota nel test clinico mediante il client esperto&lt;/p>&lt;/li>&lt;li>&lt;p>L'esperto divide le domande in sezioni mediante il client esperto&lt;/p>&lt;/li>&lt;li>&lt;p>L'esperto può: spostare una qualsiasi slide a piacere, inserire elementi grafici (di almeno 3 elementi diversi) a piacere, spostare almeno un elemento grafico o ridimensionarlo&lt;/p>&lt;/li>&lt;li>&lt;p>L'esperto carica il test clinico sul server mediante il client esperto&lt;/p>&lt;/li>&lt;/ol>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Estensioni&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Non ci sono abbastanza domande convalidate -&amp;gt; fallimento&lt;/p>&lt;/li>&lt;li>&lt;p>Non si riesce a caricare sul server il test -&amp;gt; fallimento&lt;/p>&lt;/li>&lt;li>&lt;p>Il client esperto non è connesso al server -&amp;gt; fallimento&lt;/p>&lt;/li>&lt;li>&lt;p>Il client non è funzionante -&amp;gt; fallimento&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Elenco delle variabili tecnologiche e dei dati&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Server centralizzato su cui caricare il test&lt;/p>&lt;/li>&lt;li>&lt;p>Test convalidato&lt;/p>&lt;/li>&lt;li>&lt;p>Laptop per il client esperto&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Frequenza di ripetizione&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Ogni volta che si ha necessità di creare un test clinico&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Requisiti speciali&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Non funzionale esterno legale&lt;/p>&lt;/td>&lt;/tr>&lt;/table>&lt;p>&lt;/p>&lt;p>&lt;/p></body>
       </ownedComment>
       <include xmi:id="_MQRz0HNkEemYfZkur1G4Eg" addition="_tgO1wHNdEemYfZkur1G4Eg"/>
+      <include xmi:id="_TZOygIIVEem8UJ1KzUiJzA" addition="__GJ64IIUEem8UJ1KzUiJzA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_e-KEsHNjEemYfZkur1G4Eg" memberEnd="_e-L54HNjEemYfZkur1G4Eg _e-PkQHNjEemYfZkur1G4Eg" navigableOwnedEnd="_e-L54HNjEemYfZkur1G4Eg _e-PkQHNjEemYfZkur1G4Eg">
       <ownedEnd xmi:id="_e-L54HNjEemYfZkur1G4Eg" name="creazione test clinici" visibility="private" type="_ZKGbYHNjEemYfZkur1G4Eg" association="_e-KEsHNjEemYfZkur1G4Eg">
@@ -2636,6 +2787,7 @@
       <ownedComment xmi:id="_eXGlAHWCEemcjegX9N_m5g" annotatedElement="_t2F3YHNlEemYfZkur1G4Eg">
         <body>&lt;p>&lt;/p>&lt;table border=&quot;1&quot;>&lt;col width=&quot;50.0%&quot;>&lt;/col>&lt;col width=&quot;50.0%&quot;>&lt;/col>&lt;tr>&lt;td>&lt;p>&lt;b>Sezione dei Casi d'Uso&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>&lt;b>Commento&lt;/b>&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Nome del Caso d'Uso&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Valutazione di un test&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Portata&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Sistema per la creazione e la somministrazione di test clinici per individuare disturbi linguistici quali la dislessia e la discalculia&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Livello&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Obiettivo utente&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Attore Primario&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Esperto nei disturbi linguistici&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Parti interessate e interessi&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Esperto nei disturbi linguistici che valuta il test di un soggetto&lt;/p>&lt;/li>&lt;li>&lt;p>Client dell'esperto per valutare il test&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Pre-condizioni&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Devono esistere test da valutare&lt;/p>&lt;/li>&lt;li>&lt;p>Il client del'esperto deve essere funzionante e correttamente connesso al server&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Garanzia di successo&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Conoscenza dello stato di salute del soggetto&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Scenario principale di successo&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ol>&lt;li>&lt;p>L'esperto visualizza il test completato da un soggetto sul client esperto&lt;/p>&lt;/li>&lt;li>&lt;p>L'esperto valuta le terne domanda-risposta-tempo&lt;/p>&lt;/li>&lt;li>&lt;p>L'esperto stabilisce se il soggetto è malato&lt;/p>&lt;/li>&lt;li>&lt;p>L'esperto carica mediante il client esperto i risultati del test&lt;/p>&lt;/li>&lt;/ol>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Estensioni&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>L'esperto non riesce a visualizzare il test -&amp;gt; fallimento&lt;/p>&lt;/li>&lt;li>&lt;p>Il client dell'esperto non è correttamente funzionante o connesso -&amp;gt; fallimento&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Elenco delle variabili tecnologiche e dei dati&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Laptop dell'esperto&lt;/p>&lt;/li>&lt;li>&lt;p>Test completati&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Frequenza di ripetizione&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Tutte le volte che viene effettuato un test&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Requisiti speciali&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Nessuno&lt;/p>&lt;/td>&lt;/tr>&lt;/table>&lt;p>&lt;/p>&lt;p>&lt;/p></body>
       </ownedComment>
+      <include xmi:id="_MkRF0IIVEem8UJ1KzUiJzA" addition="__GJ64IIUEem8UJ1KzUiJzA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_vEwC4HNlEemYfZkur1G4Eg" memberEnd="_vExRAHNlEemYfZkur1G4Eg _vE0UUHNlEemYfZkur1G4Eg" navigableOwnedEnd="_vExRAHNlEemYfZkur1G4Eg _vE0UUHNlEemYfZkur1G4Eg">
       <ownedEnd xmi:id="_vExRAHNlEemYfZkur1G4Eg" name="visualizzazione test" visibility="private" type="_t2F3YHNlEemYfZkur1G4Eg" association="_vEwC4HNlEemYfZkur1G4Eg">
@@ -2651,6 +2803,7 @@
       <ownedComment xmi:id="_ez3uoHWEEemcjegX9N_m5g" annotatedElement="_B2fqoHNmEemYfZkur1G4Eg">
         <body>&lt;p>&lt;/p>&lt;table border=&quot;1&quot;>&lt;col width=&quot;50.0%&quot;>&lt;/col>&lt;col width=&quot;50.0%&quot;>&lt;/col>&lt;tr>&lt;td>&lt;p>&lt;b>Sezione dei Casi d'Uso&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>&lt;b>Commento&lt;/b>&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Nome del Caso d'Uso&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Visualizzazione dei risultati&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Portata&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Sistema per la creazione e la somministrazione di test clinici per individuare disturbi linguistici quali la dislessia e la discalculia&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Livello&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Obiettivo utente&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Attore Primario&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Somministratore&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Parti interessate e interessi&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Somministratore che vuole visualizzare l'elenco dei test da lui somministrati e gli eventuali esiti&lt;/p>&lt;/li>&lt;li>&lt;p>Il server che contiene test e risultati&lt;/p>&lt;/li>&lt;li>&lt;p>Il client risultati&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Pre-condizioni&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Il somministratore deve aver somministrato almeno un test&lt;/p>&lt;/li>&lt;li>&lt;p>Il client risultati deve essere funzionante e correttamente connesso&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Garanzia di successo&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Il somministratore riesce a visualizzare i suoi test, con gli eventuali esiti&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Scenario principale di successo&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ol>&lt;li>&lt;p>Il somministratore accede al server mediante il client risultati&lt;/p>&lt;/li>&lt;li>&lt;p>Il somministratore visualizza l'elenco dei test da lui effettuati  mediante il client risultati&lt;/p>&lt;/li>&lt;li>&lt;p>Il somministratore visualizza le triple domanda-risposta-tempo dei vari test  mediante il client risultati&lt;/p>&lt;/li>&lt;li>&lt;p>Il somministratore visualizza gli eventuali esiti  mediante il client risultati&lt;/p>&lt;/li>&lt;/ol>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Estensioni&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Il server è offline -&amp;gt; fallimento&lt;/p>&lt;/li>&lt;li>&lt;p>Non ci sono test da visualizzare -&amp;gt; successo in quanto si avrà un'indicazione riguardo l'assenza di test effettuati&lt;/p>&lt;/li>&lt;li>&lt;p>Il client risultati non è funzionante o connesso -&amp;gt; fallimento&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Elenco delle variabili tecnologiche e dei dati&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Laptop del somministratore&lt;/p>&lt;/li>&lt;li>&lt;p>Test somministrati dal somministratore e risultati&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Frequenza di ripetizione&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Tutte le volte che un somministratore vuole visualizzare i risultati&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Requisiti speciali&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Nessuno&lt;/p>&lt;/td>&lt;/tr>&lt;/table>&lt;p>&lt;/p>&lt;p>&lt;/p></body>
       </ownedComment>
+      <include xmi:id="_RsSIgIIVEem8UJ1KzUiJzA" addition="__GJ64IIUEem8UJ1KzUiJzA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_FVzDEHNmEemYfZkur1G4Eg" memberEnd="_FV04QHNmEemYfZkur1G4Eg _FV3UgHNmEemYfZkur1G4Eg" navigableOwnedEnd="_FV04QHNmEemYfZkur1G4Eg _FV3UgHNmEemYfZkur1G4Eg">
       <ownedEnd xmi:id="_FV04QHNmEemYfZkur1G4Eg" name="visualizzzione test somministrati" visibility="private" type="_B2fqoHNmEemYfZkur1G4Eg" association="_FVzDEHNmEemYfZkur1G4Eg">
@@ -5097,6 +5250,7 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_THO1AHrtEem_NfkF4GLHpg" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_THON8HrtEem_NfkF4GLHpg" value="1"/>
       </ownedAttribute>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_lTnb0IISEem8UJ1KzUiJzA" name="Class1"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_THIuYHrtEem_NfkF4GLHpg" memberEnd="_THKjkHrtEem_NfkF4GLHpg _THNm4HrtEem_NfkF4GLHpg"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_dnB0sHrtEem_NfkF4GLHpg" name="Esperto">
@@ -5138,6 +5292,10 @@
       <ownedAttribute xmi:id="_35R6EICLEem_vtXx7wYlRA" name="clientRisultati" visibility="private" type="_VMjcUICLEem_vtXx7wYlRA" association="_35OPsICLEem_vtXx7wYlRA">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_35TIMICLEem_vtXx7wYlRA" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_35ShIICLEem_vtXx7wYlRA" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_yBVEkIISEem8UJ1KzUiJzA" name="identity" visibility="private" type="_lo0PwIISEem8UJ1KzUiJzA" association="_yBOW4IISEem8UJ1KzUiJzA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yBXg0YISEem8UJ1KzUiJzA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yBXg0IISEem8UJ1KzUiJzA" value="1"/>
       </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_4xHncHrtEem_NfkF4GLHpg" memberEnd="_4xJcoHrtEem_NfkF4GLHpg _4xL44HrtEem_NfkF4GLHpg">
@@ -5291,6 +5449,10 @@
       <ownedAttribute xmi:id="_wfjokICNEem_vtXx7wYlRA" name="server" visibility="private" type="_3PsnAICKEem_vtXx7wYlRA" association="_wfc64ICNEem_vtXx7wYlRA">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wfk2sICNEem_vtXx7wYlRA" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wfkPoICNEem_vtXx7wYlRA" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_whPK0IISEem8UJ1KzUiJzA" name="identity" visibility="private" type="_lo0PwIISEem8UJ1KzUiJzA" association="_whCWgIISEem8UJ1KzUiJzA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_whRnEIISEem8UJ1KzUiJzA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_whRAAIISEem8UJ1KzUiJzA" value="1"/>
       </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_9GA6IICKEem_vtXx7wYlRA" name="Client">
@@ -5615,6 +5777,38 @@
       <ownedAttribute xmi:id="_pM7aIYEqEem3Eshx22eO_g" name="Client"/>
       <ownedAttribute xmi:id="_x0SRgIEqEem3Eshx22eO_g" name="Server"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lo0PwIISEem8UJ1KzUiJzA" name="Identity">
+      <ownedAttribute xmi:id="_pu24EIISEem8UJ1KzUiJzA" name="username" visibility="private"/>
+      <ownedAttribute xmi:id="_3pR5oIIUEem8UJ1KzUiJzA" name="permessi" visibility="private"/>
+      <ownedAttribute xmi:id="_qqQwYIISEem8UJ1KzUiJzA" name="password" visibility="private"/>
+      <ownedAttribute xmi:id="_whIdIIISEem8UJ1KzUiJzA" name="test" visibility="private" type="_k8cg4HreEemm6OBL6maQyw" association="_whCWgIISEem8UJ1KzUiJzA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_whN8sIISEem8UJ1KzUiJzA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_whMukIISEem8UJ1KzUiJzA" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_yBQzIIISEem8UJ1KzUiJzA" name="esperto" visibility="private" type="_m0j7QHrtEem_NfkF4GLHpg" association="_yBOW4IISEem8UJ1KzUiJzA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yBTPYIISEem8UJ1KzUiJzA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yBSoUIISEem8UJ1KzUiJzA" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_whCWgIISEem8UJ1KzUiJzA" memberEnd="_whIdIIISEem8UJ1KzUiJzA _whPK0IISEem8UJ1KzUiJzA"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_yBOW4IISEem8UJ1KzUiJzA" memberEnd="_yBQzIIISEem8UJ1KzUiJzA _yBVEkIISEem8UJ1KzUiJzA"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="__GJ64IIUEem8UJ1KzUiJzA" name="Login">
+      <ownedComment xmi:id="_YE6CAIIWEem8UJ1KzUiJzA" annotatedElement="__GJ64IIUEem8UJ1KzUiJzA">
+        <body>&lt;table border=&quot;1&quot;>&lt;col width=&quot;50.0%&quot;>&lt;/col>&lt;col width=&quot;50.0%&quot;>&lt;/col>&lt;tr>&lt;td>&lt;p>&lt;b>Sezione dei Casi d'Uso&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>&lt;b>Commento&lt;/b>&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Nome del Caso d'Uso&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Login&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Portata&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Sistema per la creazione e la somministrazione di test clinici per individuare disturbi linguistici quali la dislessia e la discalculia&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Livello&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Sottofunzione&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Attore Primario&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Somministratore&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Parti interessate e interessi&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Somministratore che deve effettuare il login per poter accedere alla propria area dedicata, permettendo di poter effettuare determinate operazioni a seconda dei permessi della propria identity&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Pre-condizioni&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Deve esistere un identity con le credenziali inserite&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Garanzia di successo&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Il login viene effettuato senza errori e l'identity viene verificata&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Scenario principale di successo&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ol>&lt;li>&lt;p>L'utente inserisce le proprie credenziali&lt;/p>&lt;/li>&lt;li>&lt;p>Le credenziali vengono verificate&lt;/p>&lt;/li>&lt;li>&lt;p>L'utente accede alla propria area dedicata con le conseguenti operazioni disponibili&lt;/p>&lt;/li>&lt;/ol>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Estensioni&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Non c'è un account -&amp;gt; fallimento&lt;/p>&lt;/li>&lt;li>&lt;p>Le credenziali sono errate -&amp;gt; fallimento&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Elenco delle variabili tecnologiche e dei dati&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;ul>&lt;li>&lt;p>Dispositivo su cui si effettua il login&lt;/p>&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Frequenza di ripetizione&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Ogni volta che un utente vuole effettuare delle operazioni&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;b>Requisiti speciali&lt;/b>&lt;/p>&lt;/td>&lt;td>&lt;p>Non funzionale esterno legale di riservatezza e non funzionale esterno legale di sicurezza&lt;/p>&lt;/td>&lt;/tr>&lt;/table>&lt;p>&lt;/p></body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_AVElEIIVEem8UJ1KzUiJzA" memberEnd="_AVGaQIIVEem8UJ1KzUiJzA _AVKEoIIVEem8UJ1KzUiJzA" navigableOwnedEnd="_AVGaQIIVEem8UJ1KzUiJzA _AVKEoIIVEem8UJ1KzUiJzA">
+      <ownedEnd xmi:id="_AVGaQIIVEem8UJ1KzUiJzA" name="login" visibility="private" type="__GJ64IIUEem8UJ1KzUiJzA" association="_AVElEIIVEem8UJ1KzUiJzA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AVI2gIIVEem8UJ1KzUiJzA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AVIPcIIVEem8UJ1KzUiJzA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_AVKEoIIVEem8UJ1KzUiJzA" name="somministratore" visibility="private" type="_xSqMQHNiEemYfZkur1G4Eg" association="_AVElEIIVEem8UJ1KzUiJzA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AVMg4IIVEem8UJ1KzUiJzA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AVL50IIVEem8UJ1KzUiJzA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_Ay0RAIIVEem8UJ1KzUiJzA" name="Actor1"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_Bps1sIIVEem8UJ1KzUiJzA" name="Identity"/>
     <profileApplication xmi:id="_GYn_ZnMhEem7geynQZ8k_A">
       <eAnnotations xmi:id="_GYn_Z3MhEem7geynQZ8k_A" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
@@ -5642,4 +5836,5 @@
   <Default:Documentation xmi:id="_ez8nIHWEEemcjegX9N_m5g" base_Comment="_ez3uoHWEEemcjegX9N_m5g"/>
   <Default:MetaConstraint xmi:id="_1Hj9YHboEemBNfsETgEjNQ" base_Constraint="_n1gRcHboEemBNfsETgEjNQ"/>
   <Default:Documentation xmi:id="_Uly-EIEqEem3Eshx22eO_g" base_Comment="_UltegIEqEem3Eshx22eO_g"/>
+  <Default:Documentation xmi:id="_YE8eQIIWEem8UJ1KzUiJzA" base_Comment="_YE6CAIIWEem8UJ1KzUiJzA"/>
 </xmi:XMI>

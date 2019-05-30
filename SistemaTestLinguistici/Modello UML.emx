@@ -2274,7 +2274,7 @@
           </children>
           <children xmi:type="notation:DecorationNode" xmi:id="_35k1AICLEem_vtXx7wYlRA" type="FromRoleLabel" element="_35QE4ICLEem_vtXx7wYlRA">
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_35lcEICLEem_vtXx7wYlRA" type="FromRole"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_35k1AYCLEem_vtXx7wYlRA" y="-397"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_35k1AYCLEem_vtXx7wYlRA" x="-86" y="-972"/>
           </children>
           <children xmi:type="notation:DecorationNode" xmi:id="_35lcEYCLEem_vtXx7wYlRA" type="ToQualifierLabel" element="_35R6EICLEem_vtXx7wYlRA">
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_35mDIICLEem_vtXx7wYlRA" type="QualifierCompartment"/>

@@ -5418,12 +5418,6 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_UR2VYHrqEem_NfkF4GLHpg" name="CheckBox">
       <generalization xmi:id="_I-sUMHrsEem_NfkF4GLHpg" general="_-qDtkHrpEem_NfkF4GLHpg"/>
       <generalization xmi:id="_7unzsIYMEemb4u0X-CdiyQ" general="_-qDtkHrpEem_NfkF4GLHpg"/>
-      <ownedAttribute xmi:id="_U1aDgHrsEem_NfkF4GLHpg" name="larghezza" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_VtdF0HrsEem_NfkF4GLHpg" name="altezza" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
-      </ownedAttribute>
       <ownedAttribute xmi:id="_gyYdwHrqEem_NfkF4GLHpg" name="label" visibility="private" type="_QMoYAHrgEemm6OBL6maQyw" association="_gyWokHrqEem_NfkF4GLHpg">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gycIIHrqEem_NfkF4GLHpg" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gya6AHrqEem_NfkF4GLHpg" value="1"/>
@@ -5442,26 +5436,6 @@
       </ownedOperation>
       <ownedOperation xmi:id="_EYmooIYKEemb4u0X-CdiyQ" name="checkBox">
         <ownedParameter xmi:id="_KzpukIYMEemb4u0X-CdiyQ" name="Parameter1" type="_w_mT8IYGEemb4u0X-CdiyQ" direction="return"/>
-      </ownedOperation>
-      <ownedOperation xmi:id="_bjYtMIYKEemb4u0X-CdiyQ" name="getLarghezza">
-        <ownedParameter xmi:id="_OArrQIYMEemb4u0X-CdiyQ" name="Parameter1" direction="return">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
-        </ownedParameter>
-      </ownedOperation>
-      <ownedOperation xmi:id="_TRq5MIYLEemb4u0X-CdiyQ" name="setLarghezza">
-        <ownedParameter xmi:id="_RN7DUIYMEemb4u0X-CdiyQ" name="larghezza">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
-        </ownedParameter>
-      </ownedOperation>
-      <ownedOperation xmi:id="_XI63kIYLEemb4u0X-CdiyQ" name="setAltezza">
-        <ownedParameter xmi:id="_UDrvgIYMEemb4u0X-CdiyQ" name="altezza">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
-        </ownedParameter>
-      </ownedOperation>
-      <ownedOperation xmi:id="_YLJwoIYLEemb4u0X-CdiyQ" name="getAltezza">
-        <ownedParameter xmi:id="_YuX9AIYMEemb4u0X-CdiyQ" name="Parameter1" direction="return">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
-        </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_baKqUIYLEemb4u0X-CdiyQ" name="getLabel">
         <ownedParameter xmi:id="_aOY-QIYMEemb4u0X-CdiyQ" name="Parameter1" type="_ihC_sIYGEemb4u0X-CdiyQ" direction="return"/>
@@ -6099,6 +6073,7 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_93QUIIYMEemb4u0X-CdiyQ" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_93PGAIYMEemb4u0X-CdiyQ" value="1"/>
       </ownedAttribute>
+      <ownedOperation xmi:id="_JKNdwIbLEemB05dCJUh3eA" name="main"/>
       <ownedOperation xmi:id="_igA2MIYMEemb4u0X-CdiyQ" name="creaTest"/>
       <ownedOperation xmi:id="_nsMAIIYMEemb4u0X-CdiyQ" name="editaElementoGrafico"/>
       <ownedOperation xmi:id="_sAnCsIYMEemb4u0X-CdiyQ" name="visualizzaMenu"/>

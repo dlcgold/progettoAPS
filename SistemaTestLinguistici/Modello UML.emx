@@ -6074,10 +6074,19 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_93PGAIYMEemb4u0X-CdiyQ" value="1"/>
       </ownedAttribute>
       <ownedOperation xmi:id="_JKNdwIbLEemB05dCJUh3eA" name="main"/>
+      <ownedOperation xmi:id="_whbwMIbVEemB05dCJUh3eA" name="editaTestoLabel">
+        <ownedParameter xmi:id="_4bmKYIbVEemB05dCJUh3eA" name="label" type="_ihC_sIYGEemb4u0X-CdiyQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_-2Ru0IbVEemB05dCJUh3eA" name="editaDimensioneLabel">
+        <ownedParameter xmi:id="_AQ-yQIbWEemB05dCJUh3eA" name="label" type="_ihC_sIYGEemb4u0X-CdiyQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ErdZgIbWEemB05dCJUh3eA" name="editMark">
+        <ownedParameter xmi:id="_GCA8wIbWEemB05dCJUh3eA" name="checkbox" type="_w_mT8IYGEemb4u0X-CdiyQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_L0lYUIbWEemB05dCJUh3eA" name="somministraTest"/>
       <ownedOperation xmi:id="_igA2MIYMEemb4u0X-CdiyQ" name="creaTest"/>
       <ownedOperation xmi:id="_nsMAIIYMEemb4u0X-CdiyQ" name="editaElementoGrafico"/>
       <ownedOperation xmi:id="_sAnCsIYMEemb4u0X-CdiyQ" name="visualizzaMenu"/>
-      <ownedOperation xmi:id="_FETJoIYNEemb4u0X-CdiyQ" name="creaElementoGrafico"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_ihC_sIYGEemb4u0X-CdiyQ" name="Label"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_w_mT8IYGEemb4u0X-CdiyQ" name="Checkbox"/>

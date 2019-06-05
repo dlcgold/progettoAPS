@@ -3,10 +3,25 @@ import java.util.Scanner;
 public class LinguisticTestTUI {
 
 	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Effettuare il login:\n");
+		System.out.print("user: ");
+		String user = input.nextLine();
+		System.out.print("password: ");
+		String passwd = input.nextLine();
+		String id = "root";
+		String password = "expert";
+		while(!id.equals(user) && !password.equals(passwd)){
+			System.out.println("credenziali errate, reinseire:");
+			System.out.print("user: ");
+			user = input.nextLine();
+			System.out.print("password: ");
+			passwd = input.nextLine();
+		}
 		boolean check = true;
 		while(check) {
 			visualizzaMenu();
-			Scanner input = new Scanner(System.in);
 			System.out.println("Inserire una scelta");
 			int inp = input.nextInt();
 			while(inp < 0 || inp >5) {

@@ -1,4 +1,4 @@
-package sourceProgetto;
+package sistemaTestLinguistici;
 
 public class CheckBox extends ElementoGrafico {
 	private Label label;

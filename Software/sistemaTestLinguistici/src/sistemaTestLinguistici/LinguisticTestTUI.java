@@ -1,5 +1,7 @@
-package sourceProgetto;
+package sistemaTestLinguistici;
+
 import java.util.Scanner;
+
 public class LinguisticTestTUI {
 
 	public static void main(String[] args) {

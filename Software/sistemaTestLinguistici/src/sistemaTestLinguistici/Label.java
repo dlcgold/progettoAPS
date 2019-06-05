@@ -1,4 +1,4 @@
-package sourceProgetto;
+package sistemaTestLinguistici;
 
 public class Label extends ElementoGrafico {
 	private String font = "Arial";

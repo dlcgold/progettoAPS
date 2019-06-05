@@ -21,7 +21,7 @@ public class CheckBox extends ElementoGrafico {
 		return check;
 	}
 
-	public void setRispostaCheckbox(boolean check) {
+	public void setRispostaCheckBox(boolean check) {
 		this.check = check;
 	}
 

@@ -29,3 +29,6 @@ HIGH COHESION:
    - Checbox ha bisogno di label
    
 GoF:
+
+SINGLETON:
+   - LinguisticTestTUI in quanto rappresenta la singola interfaccia presente sul device

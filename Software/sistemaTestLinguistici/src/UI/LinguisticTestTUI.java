@@ -1,6 +1,11 @@
-package sistemaTestLinguistici;
+package UI;
 
 import java.util.Scanner;
+
+import domain.CheckBox;
+import domain.ElementoGrafico;
+import domain.Label;
+import service.Identity;
 
 public class LinguisticTestTUI {
 
@@ -9,17 +14,18 @@ public class LinguisticTestTUI {
 		
 		System.out.println("Effettuare il login:\n");
 		System.out.print("User: ");
-		String user = input.nextLine();
+		String name = input.nextLine();
 		System.out.print("Password: ");
 		String passwd = input.nextLine();
-		String id = "root";
-		String password = "expert";
-		while(!id.equals(user) || !password.equals(passwd)){
+		Identity verified = new Identity("root", "expert");
+		Identity user = new Identity(name, passwd);
+		while(!verified.equals(user)){
 			System.out.println("Credenziali errate, inserire nuovamente:");
 			System.out.print("User: ");
-			user = input.nextLine();
+			name = input.nextLine();
 			System.out.print("Password: ");
 			passwd = input.nextLine();
+			user = new Identity(name, passwd);
 		}
 		boolean check = true;
 		while(check) {

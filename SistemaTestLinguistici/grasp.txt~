@@ -1,0 +1,11 @@
+CREATOR:
+   - Esperto crea test
+   - Somministratore crea test
+   - Sezione crea domanda
+   - Domanda crea slide
+   - Slide elemento crea grafico
+   - Elemento grafico crea tutti i vari elementi grafici (label, checkbox...)
+   - Combobox crea label
+   - Checkbox crea label
+   - Tabella crea casella
+

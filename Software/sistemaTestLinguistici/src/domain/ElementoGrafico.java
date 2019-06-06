@@ -1,4 +1,4 @@
-package sistemaTestLinguistici;
+package domain;
 
 public class ElementoGrafico {
 	private float X;

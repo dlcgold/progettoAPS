@@ -1,32 +1,32 @@
 GRASP:
 
 CREATOR:
-   - Esperto crea test
-   - Somministratore crea test
-   - Sezione crea domanda
-   - Domanda crea slide
-   - Slide crea elemento grafico
-   - Elemento grafico crea tutti i vari elementi grafici (label, checkbox...)
-   - Combobox crea label
-   - Checkbox crea label
-   - Tabella crea casella
-   - Casella crea elementi grafici
+   - Esperto crea Test
+   - Somministratore crea Test
+   - Sezione crea Domanda
+   - Domanda crea Slide
+   - Slide crea ElementoGrafico
+   - ElementoGrafico crea tutti i vari elementi grafici (Label, CheckBox...)
+   - ComboBox crea Label
+   - CheckBox crea Label
+   - Tabella crea almeno una Casella
+   - Casella crea almeno un ElementiGrafico
 
 INFORMATION EXPERT
-   - Somministratore assegna responabilità testClinico
+   - Somministratore assegna responsabilità TestClinico
 
 CONTROLLER:
-   - Somministratore avvia le istanziazioni di test
-   - Identity avvia le istanziazioni di somministratore
-   - Sezione avvia le istanziazioni di slide e di ciò che contiene
+   - Somministratore avvia le istanziazioni di Test
+   - Identity avvia le istanziazioni di Somministratore
+   - Sezione avvia le istanziazioni di Slide e di ciò che contiene
 
 LOW COUPLING:
    - Identity può esistere indipendentemente
 
 HIGH COHESION:
-   - Slide ha bisogno degli elementi grafici
-   - Combobox ha bisogno di label
-   - Checbox ha bisogno di label
+   - Slide ha bisogno delle istanze di ElementoGrafico
+   - ComboBox ha bisogno di Label
+   - ChecBox ha bisogno di Label
    
 GoF:
 

@@ -1,4 +1,4 @@
-GRASP:
+### GRASP ###
 
 CREATOR:
    - Esperto crea Test
@@ -28,7 +28,8 @@ HIGH COHESION:
    - ComboBox ha bisogno di Label
    - ChecBox ha bisogno di Label
    
-GoF:
+
+### GoF ###
 
 SINGLETON:
    - LinguisticTestTUI in quanto rappresenta la singola interfaccia presente sul device

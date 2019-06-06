@@ -16,9 +16,9 @@ INFORMATION EXPERT
    - Somministratore assegna responabilità testClinico
 
 CONTROLLER:
-   - Somministratore avvia le istanstaziazioni di test
-   - Identity avvia le istanstaziazioni di somministratore
-   - Sezione avvia le istanstaziazioni di slide e di ciò che contiene
+   - Somministratore avvia le istanziazioni di test
+   - Identity avvia le istanziazioni di somministratore
+   - Sezione avvia le istanziazioni di slide e di ciò che contiene
 
 LOW COUPLING:
    - Identity può esistere indipendentemente
